@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   class="svg-beach"
+   data-name="Layer 1"
+   viewBox="0 0 335.99 235.19"
+   version="1.1"
+   sodipodi:docname="D_70-01.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview105"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="2.9673503"
+     inkscape:cx="167.995"
+     inkscape:cy="117.44485"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1"
+     showgrid="false" />
+  <defs
+     id="defs8">
+    <style
+       id="style1">.cls-1{mask:url(#mask);filter:url(#luminosity-noclip-2);}.cls-2{mix-blend-mode:multiply;fill:url(#ŃŚÁŻž_ŪŪŻť_ūŗšŤŚŪÚ_2);}.cls-23,.cls-3{fill:#ffde99;}.cls-10,.cls-13,.cls-14,.cls-15,.cls-22,.cls-24,.cls-3,.cls-4,.cls-5,.cls-6,.cls-7,.cls-8,.cls-9{fill-rule:evenodd;}.cls-4{fill:#fee0a2;}.cls-5{fill:#fde3ac;}.cls-6{fill:#fce5b5;}.cls-7{fill:#fae7be;}.cls-8{fill:#f9e9c7;}.cls-9{fill:#f8ecd1;}.cls-10{fill:#f7eeda;}.cls-11{mask:url(#mask-2);}.cls-12{fill:#71e4e3;}.cls-13,.cls-14,.cls-15,.cls-16,.cls-17,.cls-18,.cls-20,.cls-26{fill:#fff;}.cls-13{opacity:0.6;}.cls-14,.cls-20{opacity:0.8;}.cls-16{opacity:0.3;}.cls-17{opacity:0.5;}.cls-19{fill:url(#linear-gradient);}.cls-21,.cls-24,.cls-29{fill:#3bc5ce;}.cls-22,.cls-25{fill:#acacac;}.cls-26,.cls-27{opacity:0.7;}.cls-28{fill:url(#radial-gradient);}.cls-29{font-size:4.62px;font-family:Roboto;}.cls-30{font-size:7.93px;font-weight:700;}.cls-31{filter:url(#luminosity-noclip);}</style>
+    <filter
+       id="luminosity-noclip"
+       x="-0.14"
+       y="-8310"
+       width="336.27"
+       height="32766"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feflood
+         flood-color="#fff"
+         result="bg"
+         id="feflood1" />
+      <feblend
+         in="SourceGraphic"
+         in2="bg"
+         id="feblend1" />
+    </filter>
+    <mask
+       id="mask"
+       x="-0.14"
+       y="-8310"
+       width="336.27"
+       height="32766"
+       maskUnits="userSpaceOnUse">
+      <g
+         class="cls-31"
+         id="g1" />
+    </mask>
+    <radialgradient
+       id="ŃŚÁŻž_ŪŪŻť_ūŗšŤŚŪÚ_2"
+       cx="-541.8"
+       cy="-654.58"
+       r="774.99"
+       gradientTransform="translate(471.67 203.29) scale(0.56 0.08)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#fff"
+         id="stop1" />
+      <stop
+         offset="0.24"
+         stop-color="#fff"
+         id="stop2" />
+      <stop
+         offset="0.95"
+         stop-color="#666"
+         id="stop3" />
+    </radialgradient>
+    <filter
+       id="luminosity-noclip-2"
+       x="-0.14"
+       y="129.29"
+       width="336.27"
+       height="40.91"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feflood
+         flood-color="#fff"
+         result="bg"
+         id="feflood3" />
+      <feblend
+         in="SourceGraphic"
+         in2="bg"
+         id="feblend3" />
+    </filter>
+    <mask
+       id="mask-2"
+       x="-0.14"
+       y="129.29"
+       width="336.27"
+       height="40.91"
+       maskUnits="userSpaceOnUse">
+      <g
+         class="cls-1"
+         mask="url(#mask)"
+         id="g3">
+        <rect
+           class="cls-2"
+           x="-0.14"
+           y="129.29"
+           width="336.27"
+           height="40.91"
+           id="rect3" />
+      </g>
+    </mask>
+    <lineargradient
+       id="linear-gradient"
+       x1="167.99"
+       y1="129.29"
+       x2="167.99"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#f7eeda"
+         id="stop4" />
+      <stop
+         offset="0.11"
+         stop-color="#f7eeda"
+         id="stop5" />
+      <stop
+         offset="1"
+         stop-color="#f7eeda"
+         id="stop6" />
+    </lineargradient>
+    <radialgradient
+       id="radial-gradient"
+       cx="789"
+       cy="1275.23"
+       r="0.06"
+       gradientTransform="matrix(1, 0.01, -0.01, 0.98, -519.62, -1059.5)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0.94"
+         stop-color="#f2efef"
+         id="stop7" />
+      <stop
+         offset="1"
+         stop-color="#e7e3e2"
+         id="stop8" />
+    </radialgradient>
+  </defs>
+  <title
+     id="title8">D_70</title>
+  <polygon
+     class="cls-3"
+     points="0 227.06 335.98 227.06 335.98 235.19 0 235.19 0 227.06 0 227.06"
+     id="polygon8" />
+  <polygon
+     class="cls-4"
+     points="0 218.94 335.98 218.94 335.98 227.06 0 227.06 0 218.94 0 218.94"
+     id="polygon9" />
+  <polygon
+     class="cls-5"
+     points="0 210.81 335.98 210.81 335.98 218.94 0 218.94 0 210.81 0 210.81"
+     id="polygon10" />
+  <polygon
+     class="cls-6"
+     points="0 202.69 335.98 202.69 335.98 210.81 0 210.81 0 202.69 0 202.69"
+     id="polygon11" />
+  <polygon
+     class="cls-7"
+     points="0 194.56 335.98 194.56 335.98 202.69 0 202.69 0 194.56 0 194.56"
+     id="polygon12" />
+  <polygon
+     class="cls-8"
+     points="0 186.43 335.98 186.43 335.98 194.56 0 194.56 0 186.43 0 186.43"
+     id="polygon13" />
+  <polygon
+     class="cls-9"
+     points="0 178.31 335.98 178.31 335.98 186.44 0 186.44 0 178.31 0 178.31"
+     id="polygon14" />
+  <polygon
+     class="cls-10"
+     points="0 170.18 335.98 170.18 335.98 178.31 0 178.31 0 170.18 0 170.18"
+     id="polygon15" />
+  <g
+     class="cls-11"
+     mask="url(#mask-2)"
+     id="g15">
+    <rect
+       class="cls-12"
+       x="-0.14"
+       y="129.29"
+       width="336.27"
+       height="40.91"
+       id="rect15" />
+  </g>
+  <g
+     id="_Group_"
+     data-name="&lt;Group&gt;">
+    <g
+       id="waves">
+      <path
+         class="cls-13"
+         d="M148.77,136.94c5.29-3,5.63,1.83,10.55-.36C154.5,137.37,154,132.36,148.77,136.94Z"
+         id="path15" />
+      <path
+         class="cls-14"
+         d="M13.69,134.55c4-2.28,4.27,1.38,8-.28C18,134.88,17.64,131.08,13.69,134.55Z"
+         id="path16" />
+      <path
+         class="cls-15"
+         d="M85.43,139.64c4-2.28,4.27,1.38,8-.28C89.77,140,89.37,136.17,85.43,139.64Z"
+         id="path17" />
+      <circle
+         class="cls-16"
+         cx="173.35"
+         cy="140.91"
+         r="0.73"
+         id="circle17" />
+      <circle
+         class="cls-17"
+         cx="94.48"
+         cy="136.34"
+         r="0.73"
+         id="circle18" />
+      <circle
+         class="cls-18"
+         cx="46.23"
+         cy="144.58"
+         r="0.73"
+         id="circle19" />
+      <circle
+         class="cls-18"
+         cx="147.77"
+         cy="132.75"
+         r="0.31"
+         id="circle20" />
+      <ellipse
+         class="cls-18"
+         cx="138.08"
+         cy="143.37"
+         rx="0.31"
+         ry="0.25"
+         id="ellipse20" />
+      <ellipse
+         class="cls-18"
+         cx="125.03"
+         cy="137.17"
+         rx="0.31"
+         ry="0.25"
+         id="ellipse21" />
+      <ellipse
+         class="cls-18"
+         cx="176.77"
+         cy="137.99"
+         rx="0.31"
+         ry="0.25"
+         id="ellipse22" />
+      <ellipse
+         class="cls-18"
+         cx="172.36"
+         cy="134.72"
+         rx="0.31"
+         ry="0.25"
+         id="ellipse23" />
+      <circle
+         class="cls-18"
+         cx="113.48"
+         cy="144.27"
+         r="0.31"
+         id="circle23" />
+      <circle
+         class="cls-18"
+         cx="36.19"
+         cy="133.58"
+         r="0.31"
+         id="circle24" />
+      <circle
+         class="cls-18"
+         cx="54.45"
+         cy="133.07"
+         r="0.31"
+         id="circle25" />
+      <circle
+         class="cls-18"
+         cx="56.64"
+         cy="138.99"
+         r="0.31"
+         id="circle26" />
+      <circle
+         class="cls-18"
+         cx="9.61"
+         cy="136.91"
+         r="0.31"
+         id="circle27" />
+      <circle
+         class="cls-18"
+         cx="17.38"
+         cy="143.62"
+         r="0.31"
+         id="circle28" />
+      <circle
+         class="cls-18"
+         cx="5.2"
+         cy="143.37"
+         r="0.31"
+         id="circle29" />
+    </g>
+    <g
+       id="waves-2"
+       data-name="waves">
+      <path
+         class="cls-13"
+         d="M72.23,155.19c-5.29,3-5.63-1.82-10.55.36C66.5,154.75,67,159.77,72.23,155.19Z"
+         id="path29" />
+      <path
+         class="cls-15"
+         d="M135.57,152.49c-4,2.28-4.27-1.38-8,.28C131.23,152.16,131.62,156,135.57,152.49Z"
+         id="path30" />
+      <path
+         class="cls-15"
+         d="M41.12,154.31c-4,2.28-4.27-1.38-8,.28C36.77,154,37.17,157.78,41.12,154.31Z"
+         id="path31" />
+      <circle
+         class="cls-16"
+         cx="47.66"
+         cy="151.22"
+         r="0.73"
+         id="circle31" />
+      <circle
+         class="cls-17"
+         cx="126.52"
+         cy="155.79"
+         r="0.73"
+         id="circle32" />
+      <circle
+         class="cls-18"
+         cx="174.77"
+         cy="147.54"
+         r="0.73"
+         id="circle33" />
+      <circle
+         class="cls-18"
+         cx="73.23"
+         cy="159.37"
+         r="0.31"
+         id="circle34" />
+      <ellipse
+         class="cls-18"
+         cx="82.92"
+         cy="148.76"
+         rx="0.31"
+         ry="0.25"
+         id="ellipse34" />
+      <ellipse
+         class="cls-18"
+         cx="95.97"
+         cy="154.96"
+         rx="0.31"
+         ry="0.25"
+         id="ellipse35" />
+      <ellipse
+         class="cls-18"
+         cx="44.24"
+         cy="154.14"
+         rx="0.31"
+         ry="0.25"
+         id="ellipse36" />
+      <ellipse
+         class="cls-18"
+         cx="48.65"
+         cy="157.41"
+         rx="0.31"
+         ry="0.25"
+         id="ellipse37" />
+      <circle
+         class="cls-18"
+         cx="107.52"
+         cy="147.86"
+         r="0.31"
+         id="circle37" />
+      <circle
+         class="cls-18"
+         cx="184.82"
+         cy="158.55"
+         r="0.31"
+         id="circle38" />
+      <circle
+         class="cls-18"
+         cx="166.55"
+         cy="159.06"
+         r="0.31"
+         id="circle39" />
+      <circle
+         class="cls-18"
+         cx="164.36"
+         cy="153.14"
+         r="0.31"
+         id="circle40" />
+      <circle
+         class="cls-18"
+         cx="105.43"
+         cy="154.88"
+         r="0.31"
+         id="circle41" />
+    </g>
+    <g
+       id="waves-3"
+       data-name="waves">
+      <path
+         class="cls-14"
+         d="M207.32,134.55c4-2.28,4.27,1.38,8-.28C211.66,134.88,211.27,131.08,207.32,134.55Z"
+         id="path41" />
+      <path
+         class="cls-15"
+         d="M279.05,139.64c4-2.28,4.27,1.38,8-.28C283.4,140,283,136.17,279.05,139.64Z"
+         id="path42" />
+      <circle
+         class="cls-17"
+         cx="288.1"
+         cy="136.34"
+         r="0.73"
+         id="circle42" />
+      <circle
+         class="cls-18"
+         cx="239.86"
+         cy="144.58"
+         r="0.73"
+         id="circle43" />
+      <ellipse
+         class="cls-18"
+         cx="331.71"
+         cy="143.37"
+         rx="0.31"
+         ry="0.25"
+         id="ellipse43" />
+      <ellipse
+         class="cls-18"
+         cx="318.65"
+         cy="137.17"
+         rx="0.31"
+         ry="0.25"
+         id="ellipse44" />
+      <circle
+         class="cls-18"
+         cx="307.11"
+         cy="144.27"
+         r="0.31"
+         id="circle44" />
+      <circle
+         class="cls-18"
+         cx="229.81"
+         cy="133.58"
+         r="0.31"
+         id="circle45" />
+      <circle
+         class="cls-18"
+         cx="248.08"
+         cy="133.07"
+         r="0.31"
+         id="circle46" />
+      <circle
+         class="cls-18"
+         cx="250.26"
+         cy="138.99"
+         r="0.31"
+         id="circle47" />
+      <circle
+         class="cls-18"
+         cx="203.23"
+         cy="136.91"
+         r="0.31"
+         id="circle48" />
+      <circle
+         class="cls-18"
+         cx="211"
+         cy="143.62"
+         r="0.31"
+         id="circle49" />
+      <circle
+         class="cls-18"
+         cx="198.83"
+         cy="143.37"
+         r="0.31"
+         id="circle50" />
+    </g>
+    <g
+       id="waves-4"
+       data-name="waves">
+      <path
+         class="cls-15"
+         d="M234.74,154.31c-4,2.28-4.27-1.38-8,.28C230.4,154,230.79,157.78,234.74,154.31Z"
+         id="path50" />
+      <circle
+         class="cls-16"
+         cx="241.28"
+         cy="151.22"
+         r="0.73"
+         id="circle51" />
+      <circle
+         class="cls-17"
+         cx="320.14"
+         cy="155.79"
+         r="0.73"
+         id="circle52" />
+      <circle
+         class="cls-18"
+         cx="266.86"
+         cy="159.37"
+         r="0.31"
+         id="circle53" />
+      <ellipse
+         class="cls-18"
+         cx="276.54"
+         cy="148.76"
+         rx="0.31"
+         ry="0.25"
+         id="ellipse53" />
+      <ellipse
+         class="cls-18"
+         cx="289.59"
+         cy="154.96"
+         rx="0.31"
+         ry="0.25"
+         id="ellipse54" />
+      <ellipse
+         class="cls-18"
+         cx="237.86"
+         cy="154.14"
+         rx="0.31"
+         ry="0.25"
+         id="ellipse55" />
+      <ellipse
+         class="cls-18"
+         cx="242.27"
+         cy="157.41"
+         rx="0.31"
+         ry="0.25"
+         id="ellipse56" />
+      <circle
+         class="cls-18"
+         cx="301.14"
+         cy="147.86"
+         r="0.31"
+         id="circle56" />
+      <circle
+         class="cls-18"
+         cx="311.23"
+         cy="155.13"
+         r="0.31"
+         id="circle57" />
+    </g>
+    <g
+       id="waves-5"
+       data-name="waves">
+      <path
+         class="cls-14"
+         d="M13.69,165.12c4-2.28,4.27,1.38,8-.28C18,165.45,17.64,161.64,13.69,165.12Z"
+         id="path57" />
+      <circle
+         class="cls-17"
+         cx="94.48"
+         cy="166.9"
+         r="0.73"
+         id="circle58" />
+      <circle
+         class="cls-18"
+         cx="147.77"
+         cy="163.32"
+         r="0.31"
+         id="circle59" />
+      <ellipse
+         class="cls-18"
+         cx="125.03"
+         cy="167.73"
+         rx="0.31"
+         ry="0.25"
+         id="ellipse59" />
+      <ellipse
+         class="cls-18"
+         cx="172.36"
+         cy="165.29"
+         rx="0.31"
+         ry="0.25"
+         id="ellipse60" />
+      <circle
+         class="cls-18"
+         cx="36.19"
+         cy="164.15"
+         r="0.31"
+         id="circle60" />
+      <circle
+         class="cls-18"
+         cx="54.45"
+         cy="163.63"
+         r="0.31"
+         id="circle61" />
+      <circle
+         class="cls-18"
+         cx="9.61"
+         cy="167.48"
+         r="0.31"
+         id="circle62" />
+    </g>
+    <g
+       id="waves-6"
+       data-name="waves">
+      <circle
+         class="cls-17"
+         cx="288.1"
+         cy="166.9"
+         r="0.73"
+         id="circle63" />
+      <ellipse
+         class="cls-18"
+         cx="318.65"
+         cy="167.73"
+         rx="0.31"
+         ry="0.25"
+         id="ellipse63" />
+      <circle
+         class="cls-18"
+         cx="229.81"
+         cy="164.15"
+         r="0.31"
+         id="circle64" />
+      <circle
+         class="cls-18"
+         cx="248.08"
+         cy="163.63"
+         r="0.31"
+         id="circle65" />
+      <circle
+         class="cls-18"
+         cx="203.23"
+         cy="167.48"
+         r="0.31"
+         id="circle66" />
+    </g>
+  </g>
+  <rect
+     class="cls-19"
+     width="335.99"
+     height="129.29"
+     id="rect66" />
+  <path
+     class="cls-20 cloud1"
+     d="M71.89,63.57A5.42,5.42,0,1,1,81,57.75a3.44,3.44,0,0,1,3.27-2.53,4.56,4.56,0,0,1-.14-1.11,4.64,4.64,0,0,1,9.18-.91,3.45,3.45,0,0,1,4.91.53,5.26,5.26,0,0,1,8.85,5.68,2.94,2.94,0,0,1,.66-0.08,2.9,2.9,0,0,1,2.89,2.72,4.16,4.16,0,0,1,7.61,2.3c0,0.07,0,.13,0,0.2A3.55,3.55,0,1,1,115.85,71l-1.08.6H73.07V71.48H72.82A4,4,0,0,1,71.89,63.57Z"
+     id="path66" />
+  <path
+     class="cls-21"
+     d="M336,235.19V186l-5.76-35.71L330,151.92l0.07,0.45-2.15,34.29L316.23,152l0.07,1.69,0.15,0.43,3.7,35.91-18.56-33.6L302,158l0.22,0.4,10,34.67L288,163.35l0.66,1.55,0.29,0.36,16.49,33.18a26.68,26.68,0,0,0,2.8,4.47l0.37,0.47-0.38-.46a26.72,26.72,0,0,0-3.73-3.73l-28.65-23.51-0.28-.36-1.37-1,23.56,30.3L266.2,187.07l-0.34-.3-1.52-.73,28.59,25.61L258.76,200l-0.39-.24-1.62-.45h0l0.07,0,31.13,19.14-33.89-5.59-0.43-.17-1.68-.17h0l0.05,0,33.88,13.77-34.35.06-0.45-.1-1.69.1,37.15,8.34-2.41.43H336Z"
+     id="path67" />
+  <path
+     class="cls-21"
+     d="M-0.14,235.19V186l5.76-35.71,0.21,1.68-0.07.45L7.9,186.66,19.6,152l-0.07,1.69-0.15.43L15.69,190l18.56-33.6L33.88,158l-0.22.4-10,34.67,24.25-29.75-0.66,1.55-0.29.36L30.42,198.45a26.68,26.68,0,0,1-2.8,4.47l-0.37.47,0.38-.46a26.72,26.72,0,0,1,3.73-3.73L60,175.68l0.28-.36,1.37-1-23.56,30.3,31.54-17.56,0.34-.3L71.5,186,42.91,211.65,77.08,200l0.39-.24,1.62-.45h0l-0.07,0L47.89,218.5l33.89-5.59,0.43-.17,1.68-.17h0l-0.05,0L50,226.35l34.35,0.06,0.45-.1,1.69,0.1L49.3,234.76l2.41,0.43H-0.14Z"
+     id="path68" />
+  <path
+     class="cls-20"
+     d="M335.7,129.39V94.63a5.53,5.53,0,0,0-3.28-2,7.37,7.37,0,0,0,.94-3.62,7.45,7.45,0,0,0-12.16-5.76,8.36,8.36,0,0,0-14.74,7.9,5.53,5.53,0,0,0-7.22,3.39,8.46,8.46,0,0,0-11,11.85,4.6,4.6,0,0,0-1.13-.15,4.65,4.65,0,0,0-3.59,1.7,8.86,8.86,0,0,0-1.38-.9A6.62,6.62,0,0,0,277,106a8.81,8.81,0,0,0-7.77,8.73,9.49,9.49,0,0,0,.12,1.43,7.45,7.45,0,0,0-11.64,2.7,7.44,7.44,0,0,0-14.37,2.73,5,5,0,0,0,0,.52A5.15,5.15,0,0,0,242,122a4.91,4.91,0,0,0-4.24,7.41H335.7Z"
+     id="path69" />
+  <path
+     class="cls-17"
+     d="M84.19,129.39v-26.3a4.19,4.19,0,0,1,2.48-1.54A5.58,5.58,0,0,1,86,98.81a5.64,5.64,0,0,1,9.2-4.36,6.33,6.33,0,0,1,11.15,6,4.19,4.19,0,0,1,5.46,2.57,6.4,6.4,0,0,1,8.33,9,3.49,3.49,0,0,1,3.58,1.17,6.76,6.76,0,0,1,1-.68,5,5,0,0,1,3.9-.71,6.66,6.66,0,0,1,5.88,6.61,7.19,7.19,0,0,1-.09,1.08,5.63,5.63,0,0,1,8.81,2,5.63,5.63,0,0,1,10.87,2.06,3.78,3.78,0,0,1,0,.39,3.92,3.92,0,0,1,1-.13,3.72,3.72,0,0,1,3.21,5.61H84.19Z"
+     id="path70" />
+  <path
+     class="cls-20"
+     d="M93.3,121.63a7.67,7.67,0,0,0-4.22-6.84,5.76,5.76,0,0,0-1.45-6.21,10.35,10.35,0,0,0-11.36-16.9A4.49,4.49,0,0,0,68,90.17a7.83,7.83,0,0,0-5.84-3.63,6.4,6.4,0,0,0,.15-1.39,6.59,6.59,0,0,0-11.39-4.51,8.86,8.86,0,0,0-13.87-9.83,10,10,0,0,0-19,3.63,6.47,6.47,0,0,0-5.5,1.72A10.08,10.08,0,0,0,0,72.23v57.25H87v-0.29A7.68,7.68,0,0,0,93.3,121.63Z"
+     id="path71" />
+  <g
+     id="_Group_2"
+     data-name="&lt;Group&gt;">
+    <path
+       class="cls-22"
+       d="M136.15,41.33c-2.27-.16-3.34-0.93-5.22-1.3a8.27,8.27,0,0,0-5,1,1.27,1.27,0,0,0-2.12,0c-1.2-.5-2.92-1.53-5.12-1.14-1.88.34-3,1.09-5.23,1.21H113l0.48,0.1a11.38,11.38,0,0,0,2.44.15c0.93,0,1.82-.19,2.78-0.14a6.05,6.05,0,0,1,2.5.7,24.14,24.14,0,0,1,2.46,1.53,3.1,3.1,0,0,0,2.53,0A21.12,21.12,0,0,1,128.42,42a6,6,0,0,1,2.5-.66c1,0,1.86.14,2.78,0.19a11.66,11.66,0,0,0,2.44-.1l0.47-.09Z"
+       id="path72" />
+    <path
+       class="cls-22"
+       d="M59.75,56.88c-2.29-.16-3.38-0.94-5.29-1.32a8.38,8.38,0,0,0-5.07,1A1.36,1.36,0,0,0,48.31,56a1.35,1.35,0,0,0-1.07.56c-1.21-.5-3-1.55-5.19-1.15-1.91.34-3,1.1-5.3,1.22l-0.48,0,0.48,0.1a11.49,11.49,0,0,0,2.47.15c0.94,0,1.85-.19,2.82-0.14a6.1,6.1,0,0,1,2.53.71A24.21,24.21,0,0,1,47.07,59a3.13,3.13,0,0,0,2.56,0,21.12,21.12,0,0,1,2.29-1.36,6.12,6.12,0,0,1,2.53-.67c1,0,1.88.14,2.82,0.19A11.71,11.71,0,0,0,59.75,57l0.48-.09Z"
+       id="path73" />
+  </g>
+  <circle
+     class="cls-20 sun"
+     cx="292.69"
+     cy="43.81"
+     r="26.83"
+     id="circle73" />
+  <circle
+     class="cls-23 sun"
+     cx="292.69"
+     cy="43.81"
+     r="20.32"
+     id="circle74" />
+  <g
+     id="g105"
+     inkscape:label="gboat"
+     class="boat">
+    <polygon
+       class="cls-3"
+       points="46.61 96.38 30.85 140.95 46.72 140.95 46.61 96.38 46.61 96.38"
+       id="polygon90" />
+    <path
+       class="cls-24"
+       d="M49,97.6h0q-0.49-.39-1-0.75L48,97l-0.81-.52V141l18.7-.07C68.31,126.21,59.23,105.84,49,97.6Z"
+       id="path90" />
+    <path
+       class="cls-22"
+       d="M30.18,143.43s0.25,6.25,4.43,6.25H61.92l4.39-6.27H30.18Z"
+       id="path91" />
+    <rect
+       class="cls-25"
+       x="46.51"
+       y="93.56"
+       width="0.92"
+       height="49.84"
+       id="rect91" />
+  </g>
+  <g
+     id="_Group_3"
+     data-name="&lt;Group&gt;">
+    <g
+       id="clouds">
+      <path
+         class="cls-18 cloud2"
+         d="M95.73,40.13a11.23,11.23,0,0,0-13.25-7,8.61,8.61,0,0,0-16.64-.89h0A8.53,8.53,0,0,0,55.45,29.3h0A9.06,9.06,0,0,0,53,26.77c0-.22,0-0.43,0-0.66a6.66,6.66,0,0,0-12.76-2.67,9,9,0,0,0-16.52,5s0,0.09,0,.13c-0.22,0-.44,0-0.66,0a7.33,7.33,0,0,0-6.74,10.23A5.24,5.24,0,0,0,11.87,44H96.42A11.19,11.19,0,0,0,95.73,40.13Z"
+         id="path92" />
+      <path
+         class="cls-26"
+         d="M210.08,31.73A4.83,4.83,0,0,0,204.39,27h0c0-.16,0-0.32,0-0.48a5.24,5.24,0,0,0-5.24-5.24,5.37,5.37,0,0,0-.69,0,7.17,7.17,0,0,0-13.1.61,5.11,5.11,0,0,0-2.52,2.22h0a4.9,4.9,0,0,0-.66,0,5.1,5.1,0,0,0-5.06,4.52,3.27,3.27,0,0,0-4.21,3.13h37.15Z"
+         id="path93" />
+      <g
+         class="cls-27"
+         id="g94">
+        <path
+           class="cls-18 cloud3"
+           d="M229.5,110.36a3.81,3.81,0,0,1,4.78-3.69,7.35,7.35,0,0,1,13.66-2.8,5.58,5.58,0,0,1,9.49,3.7h0a2.79,2.79,0,0,1,2.79,2.79H229.5Z"
+           id="path94" />
+      </g>
+    </g>
+    <path
+       class="cls-26"
+       d="M126.14,53.69a5.17,5.17,0,0,1,5.22-5h0.2a7.11,7.11,0,0,1,12.81,1.5,3.51,3.51,0,0,1,3.41,3.51H126.14Z"
+       id="path95" />
+  </g>
+  <path
+     class="cls-28"
+     d="M251.62,202.7v-0.16c0,0.05,0,.1,0,0.15h0Z"
+     id="path96" />
+  <ellipse
+     class="cls-12"
+     cx="238.55"
+     cy="178.39"
+     rx="0.65"
+     ry="4.99"
+     transform="translate(56.81 414.41) rotate(-89.19)"
+     id="ellipse96" />
+  <path
+     class="cls-21"
+     d="M238.54,179c-2.7,0-4.88-.35-5-0.7h0l-0.11,7.88c0,0.36,2.22.68,5,.72s5-.22,5-0.58l0.11-7.88h0C243.43,178.83,241.24,179.08,238.54,179Z"
+     id="path97" />
+  <path
+     class="cls-12"
+     d="M243.42,186.37c0,0.36-2.24.61-5,.58s-5-.36-5-0.72l0,3c0,0.36,2.23.68,5,.72s5-.22,5-0.58Z"
+     id="path98" />
+  <path
+     class="cls-18"
+     d="M243.37,189.4h0c0,0.36-2.24.61-5,.58s-5-.36-5-0.72h0a11.5,11.5,0,0,0-8.56,11.29h0l-0.24,17c0,1,6,1.83,13.39,1.93S251.39,219,251.4,218l0.24-16.82h0c0-.05,0-0.1,0-0.16A11.56,11.56,0,0,0,243.37,189.4Z"
+     id="path99" />
+  <text
+     class="cls-29"
+     transform="translate(230.22 202.57) rotate(0.59)"
+     id="text105">A<tspan
+   x="3.48"
+   y="0"
+   id="tspan99">F</tspan><tspan
+   x="6.49"
+   y="0"
+   id="tspan100">TE</tspan><tspan
+   x="12.67"
+   y="0"
+   id="tspan101">R</tspan><tspan
+   class="cls-30"
+   id="tspan105"><tspan
+     x="0"
+     y="7.92"
+     id="tspan102">S</tspan><tspan
+     x="5.07"
+     y="7.92"
+     id="tspan103">U</tspan><tspan
+     x="10.52"
+     y="7.92"
+     id="tspan104">N</tspan></tspan></text>
+  <path
+     class="cls-23"
+     d="M182.87,218.85c10.53-30.14,12.63-66.42,10.66-91.92-2.51-52.37-16-77.22-22.2-86-1.87-2.65-4.45-2.71-6.59.07-6.44,8.37-19.68,31.91-22.51,86.16-1.33,25.44-.16,61.57,10,91.65h30.6Z"
+     id="path74" />
+  <path
+     class="cls-15"
+     d="M145.49,191.35a180.06,180.06,0,0,0,6.78,27.5h30.6a187.43,187.43,0,0,0,7.16-27.5H145.49Z"
+     id="path75" />
+  <path
+     class="cls-12"
+     d="M164,218.85h7.5V41.56l-0.4-.59c-1.87-2.65-4.45-2.71-6.59.07l-0.51.68V218.85Z"
+     id="path76" />
+  <path
+     class="cls-22"
+     d="M223,34.6h0a2,2,0,0,1,2,2l-0.17,180.25a2,2,0,0,1-2,2h0a2,2,0,0,1-2-2L221,36.59a2,2,0,0,1,2-2h0Z"
+     id="path77" />
+  <path
+     class="cls-24"
+     d="M158.44,88.15c8.7-24.1,35.38-49.86,64.54-49.83-39.8,0-76.22,25.71-88.07,49.81,6.61,10,14.59,9.32,23.62.13Z"
+     id="path78" />
+  <path
+     class="cls-24"
+     d="M223,38.32c29.16,0,55.8,25.84,64.42,50l0,0c10.23,10,18.13,10.11,23.55,0C299.16,64.18,262.78,38.36,223,38.32Z"
+     id="path79" />
+  <path
+     class="cls-15"
+     d="M185.74,88.18c5-24.1,20.42-49.87,37.24-49.86-29.16,0-55.84,25.73-64.54,49.83,8.74,10.94,17.89,9.89,27.33.07Z"
+     id="path80" />
+  <path
+     class="cls-15"
+     d="M223,38.32c16.81,0,32.19,25.82,37.16,49.93v0c11.4,10.57,20.36,10,27.27,0C278.78,64.16,252.14,38.35,223,38.32Z"
+     id="path81" />
+  <path
+     class="cls-15"
+     d="M223,38.32c5.71,0,10.91,25.79,12.62,49.9-8.28,10.61-16.72,9.53-25.32,0,1.71-24.11,7-49.88,12.7-49.88h0Z"
+     id="path82" />
+  <path
+     class="cls-24"
+     d="M210.28,88.2c1.71-24.11,7-49.88,12.7-49.88-16.81,0-32.23,25.75-37.24,49.86,7.82,9.84,16,10.35,24.56,0Z"
+     id="path83" />
+  <path
+     class="cls-24"
+     d="M223,38.32c5.71,0,10.91,25.79,12.62,49.9q15.87,15.16,24.54,0C255.17,64.14,239.79,38.33,223,38.32Z"
+     id="path84" />
+  <rect
+     class="cls-21"
+     x="86.28"
+     y="166.11"
+     width="72.12"
+     height="52.78"
+     id="rect84" />
+  <rect
+     class="cls-25"
+     x="86.28"
+     y="166.11"
+     width="72.12"
+     height="14.1"
+     id="rect85" />
+  <rect
+     class="cls-18"
+     x="86.28"
+     y="180.21"
+     width="72.12"
+     height="4.83"
+     id="rect86" />
+  <rect
+     class="cls-18"
+     x="86.28"
+     y="191.49"
+     width="72.12"
+     height="4.83"
+     id="rect87" />
+  <rect
+     class="cls-18"
+     x="86.28"
+     y="202.77"
+     width="72.12"
+     height="4.83"
+     id="rect88" />
+  <rect
+     class="cls-18"
+     x="86.28"
+     y="214.05"
+     width="72.12"
+     height="4.83"
+     id="rect89" />
+  <path
+     class="cls-23"
+     d="M142.2,168.54c-0.53-16-9.28-27-19.6-27-11,0-19.25,10.79-20,26.74a3.72,3.72,0,1,0,3,.11c0.73-14,7.41-24.21,17-24.21,8.35,0,16.08,10.39,16.58,24.43A3.71,3.71,0,1,0,142.2,168.54Z"
+     id="path89" />
+  <circle
+     class="cls-18"
+     cx="103.86"
+     cy="171.69"
+     r="1.56"
+     transform="translate(-68.7 274.1) rotate(-89.52)"
+     id="circle89" />
+  <circle
+     class="cls-18"
+     cx="140.61"
+     cy="171.94"
+     r="1.56"
+     transform="translate(-32.42 311.2) rotate(-89.55)"
+     id="circle90" />
+  <text
+     xml:space="preserve"
+     style="font-weight:bold;font-size:38.8848px;font-family:Roboto;-inkscape-font-specification:'Roboto, Bold';white-space:pre;inline-size:212.202;fill:#ffffff;stroke:#acacac;stroke-width:1.91525;stroke-dasharray:none;stroke-opacity:1"
+     x="-0.47794175"
+     y="32.562347"
+     id="text1"
+     transform="matrix(0.80684121,0,0,0.72828059,82.832268,1.8756876)"><tspan
+       x="-0.47794175"
+       y="32.562347"
+       id="tspan2">Niceville, FL</tspan></text>
+</svg>

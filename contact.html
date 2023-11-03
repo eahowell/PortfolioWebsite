@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+        <!-- CSS reset  -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
+        <!-- Importing Roboto Slab Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;900&display=swap" rel="stylesheet" />
+        <!-- CSS Style Sheet -->
+        <link rel="stylesheet" type="text/css" href="css/styles.production.css" />
+        <title>Portfolio | Home</title>
+    </head>
+
+    <body>
+        <header class="page-header">
+            <a href="./index.html"><img id="HeaderLogoImage" src="img/FullLogo3.png" alt="Full Logo for Developer Elizabeth Howell" class="page-header__item" /></a>
+            <nav class="main-navigation page-header__item">
+                <ul role="menubar" class="navigation-list topbottombordersOut">
+                    <li role="presentation" class="navigation-list__item">
+                        <a href="./index.html" role="menuitem" title="Home" class="navigation-list__item">Home</a>
+                    </li>
+                    <li role="presentation" class="navigation-list__item">
+                        <a href="./about.html" role="menuitem" title="About Me" class="navigation-list__item">About Me</a>
+                    </li>
+                    <li role="presentation" class="navigation-list__item">
+                        <a href="./work.html" role="menuitem" title="Work" class="navigation-list__item">Work</a>
+                    </li>
+                    <li role="presentation" class="navigation-list__item">
+                        <a href="./contact.html" role="menuitem" title="Contact" class="navigation-list__item navigation-list__item--active">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <h1 class="link__calltoaction">
+                    <a href="mailto:ehowell.webdev@gmail.com" title="Click here to contact me by email">Contact Me!</a>
+                </h1>
+                <form action="#" method="post" id="contact-form" class="form__contact">
+                    <label for="RequestorName" class="standard-label">Name* </label>
+                    <input type="text" name="RequestorName" id="RequestorName" required />
+                    <br />
+                    <br />
+
+                    <label for="RequestorEmail" class="standard-label">Email* </label>
+                    <input type="email" name="RequestorEmail" id="RequestorEmail" required />
+                    <br />
+                    <br />
+
+                    <label for="RequestorPhone" class="standard-label">Phone </label>
+                    <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" name="RequestorPhone" id="RequestorPhone" placeholder="999-999-9999" />
+
+                    <br />
+                    <br />
+                    <br />
+
+                    <label>What would you like to discuss?</label>
+                    <br />
+                    <br />
+
+                    <label><input type="checkbox" name="radio" value="Subscribe" /> Subscribe to Newsletter</label>
+                    <label><input type="checkbox" name="radio" value="Inquire" /> Inquire about a past work</label>
+                    <label><input type="checkbox" name="radio" value="RFQ" /> Request a quote</label>
+                    <br />
+                    <br />
+
+                    <label for="Message" class="standard-label">Message </label>
+                    <textarea name="Message" id="Message" maxlength="240" rows="5" cols="48" required></textarea>
+                    <br />
+
+                    <label>Max 240 characters</label>
+                    <br />
+                    <br />
+
+                    <input type="submit" value="Submit" class="button" />
+                    <br />
+                    <br />
+                </form>
+                <br />
+                <br />
+            </article>
+
+            <article>
+                <h2>Contact Infomation</h2>
+                <div>
+                    <h3>Elizabeth Howell</h3>
+                    <br />
+                    <p>
+                        <a href="mailto:ehowell.webdev@gmail.com">Email: ehowell.webdev (at) gmail (dot) com</a>
+                    </p>
+                </div>
+            </article>
+        </main>
+        <footer id="FindMeIcons" class="page-footer">
+            <p>Find me on</p>
+            <div class="social-media">
+                <!-- Twitter Icon -->
+                <a href="https://twitter.com/eahowell89" target="_blank" title="Find me on Twitter"><img src="img/twitter.svg" alt="Twitter" /></a>
+                <!-- LinkedIn Icon -->
+                <a href="https://www.linkedin.com/in/elizabethannhowell/" target="_blank" title="Find me on LinkedIn"><img src="img/linkedin.svg" alt="LinkedIn" /></a>
+                <!-- GitHub Icon -->
+                <a href="https://github.com/eahowell" target="_blank" title="Find me on GitHub"><img src="img/github.svg" alt="Github" /></a>
+            </div>
+            <br />
+            <a href="#">Back to top</a>
+            <br />
+            <br />
+            <br />
+        </footer>
+        <script src="js/tota11y.min.js"></script>
+    </body>
+    <!-- CREDITS -->
+    <!--Title of the Image" by [Artist's Name], Icon Finder. License: [License Type]. Available at: [URL]-->
+    <!--"Roboto Slab" Font by Christian Robertson, Google Fonts, License: APACHE LICENSE, VERSION 2.0. Available at: https://www.apache.org/licenses/LICENSE-2.0-->
+    <!--"Linkedin Icon" by Picons.me, Icon Finder. https://www.iconfinder.com/icons/104493/linkedin_icon-->
+    <!--"Twitter, Bird Icon" by Picons.me, Icon Finder. https://www.iconfinder.com/icons/104501/twitter_bird_icon-->
+    <!--"Code repository, github, repository icon" by Pixel Bazaar, Icon Finder. License: CC BY 3.0 DEED. Available at: https://creativecommons.org/licenses/by/3.0/-->
+</html>
