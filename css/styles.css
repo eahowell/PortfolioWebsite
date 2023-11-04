@@ -229,6 +229,12 @@ input.button:active {
   background-color: var(--HotPink);
 }
 
+button:visited,
+.button1:visited,
+input.button:visited {
+  color: white;
+}
+
 .form__contact {
   background-color: var(--LightPurple);
   text-align: center;
