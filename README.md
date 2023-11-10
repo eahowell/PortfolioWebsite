@@ -5,6 +5,8 @@
 
 ## Project Description
 This project is the foundation to the Full-Stack Web Developer Course from Career Foundry.
+It will contain a collection of the items I build in an online design portfolio.
+
 Building this site and pages allowed me to learn:
 - HTML
 - CSS
