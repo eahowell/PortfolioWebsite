@@ -1,4 +1,5 @@
 # Portfolio Website for Elizabeth Howell
+![GitHub issues](https://img.shields.io/github/issues/eahowell/PortfolioWebsite?color=yellow)
 ![GitHub Repo stars](https://img.shields.io/github/stars/eahowell/PortfolioWebsite)
 ![GitHub forks](https://img.shields.io/github/forks/eahowell/PortfolioWebsite)
 ![GitHub watchers](https://img.shields.io/github/watchers/eahowell/PortfolioWebsite)
