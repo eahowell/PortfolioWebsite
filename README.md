@@ -17,7 +17,7 @@ Building this site and pages allowed me to learn:
 
 ### Credits
 - Developed as part of the Career Foundry: Intro to Frontend Development course
--"Roboto Slab" Font by Christian Robertson, Google Fonts, License: APACHE LICENSE, VERSION 2.0. Available at: https://www.apache.org/licenses/LICENSE-2.0
--"Linkedin Icon" by Picons.me, Icon Finder. https://www.iconfinder.com/icons/104493/linkedin_icon
--"Twitter, Bird Icon" by Picons.me, Icon Finder. https://www.iconfinder.com/icons/104501/twitter_bird_icon
--"Code repository, github, repository icon" by Pixel Bazaar, Icon Finder. License: CC BY 3.0 DEED. Available at: https://creativecommons.org/licenses/by/3.0/
+- "Roboto Slab" Font by Christian Robertson, Google Fonts, License: APACHE LICENSE, VERSION 2.0. Available at: https://www.apache.org/licenses/LICENSE-2.0
+- "Linkedin Icon" by Picons.me, Icon Finder. https://www.iconfinder.com/icons/104493/linkedin_icon
+- "Twitter, Bird Icon" by Picons.me, Icon Finder. https://www.iconfinder.com/icons/104501/twitter_bird_icon
+- "Code repository, github, repository icon" by Pixel Bazaar, Icon Finder. License: CC BY 3.0 DEED. Available at: https://creativecommons.org/licenses/by/3.0/
