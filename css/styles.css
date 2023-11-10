@@ -359,7 +359,7 @@ svg* {
 }
 
 .sun {
-  animation: 4s color-change infinite alternate linear;
+  animation: 10s color-change infinite alternate linear;
 }
 
 #link__SailboatCredit {
