@@ -424,6 +424,22 @@ svg* {
 }
 
 @media all and (max-width: 1200px) {
+  .page-header{
+    display: inline-block;
+    text-align: center;
+  }
+  .navigation-list{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+  }
+  .navigation-list__item{
+    margin: 2px;
+    padding: 2px;
+  }
+  main{
+    margin-top: 25px;
+  }
   .project-list {
     grid-gap: 10px;
   }
