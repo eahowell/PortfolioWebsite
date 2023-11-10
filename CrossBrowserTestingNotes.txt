@@ -17,3 +17,4 @@ Cross Browser Testing:
 	- (Resoled) Smaller screen sizes made the nav bar difficult to see
 		- Resolved by changing it to inline block and centering under the header logo
 - Safari
+	- No issues identified
