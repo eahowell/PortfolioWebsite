@@ -230,8 +230,29 @@ input.button:visited {
 }
 
 .form__contact {
-  background-color: var(--LightPurple);
   text-align: center;
+}
+
+.contactheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
+  margin: 10px auto;
+}
+
+.contactinfobox {
+  background-color: var(--LightBlue);
+  border: 3px solid var(--DarkBlue);
+  margin-right: 25px;
+  border-radius: 15%;
+  padding: 30px;
+  margin-left: 80px;
+  width: 650px;
+  height: 200px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 table.tbl-experience {
@@ -403,6 +424,20 @@ svg* {
 
   .navigation-list__item {
       transform: scale(0.9);
+  }
+  
+  .contactheader {
+    display: block;
+    margin: 10px auto;
+  }
+
+  .contactinfobox {
+    background-color: #a9bbe4;
+    border: 3px solid#0a1464;
+    margin: 15px;
+    padding: 25px;
+    width: auto;
+    height: auto;
   }
 }
 
