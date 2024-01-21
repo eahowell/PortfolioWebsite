@@ -46,20 +46,20 @@
             <h1 class="link__calltoaction">
                 <a href="mailto:ehowell.webdev@gmail.com" title="Click here to contact me by email">Contact Me!</a>
             </h1>
-            <form action="#" method="post" id="contact-form" class="form__contact">
+            <form id="contact-form" class="form__contact">
                 <label for="RequestorName" class="standard-label">Name* </label>
-                <input type="text" name="RequestorName" id="RequestorName" required />
+                <input type="text" name="RequestorName" id="RequestorName"/>
                 <br />
                 <br />
 
                 <label for="RequestorEmail" class="standard-label">Email* </label>
-                <input type="email" name="RequestorEmail" id="RequestorEmail" required />
+                <input type="email" name="RequestorEmail" id="RequestorEmail"/>
                 <br />
                 <br />
-
-                <label for="RequestorPhone" class="standard-label">Phone </label>
-                <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" name="RequestorPhone" id="RequestorPhone"
-                    placeholder="999-999-9999" />
+                <!-- pattern="\d{3}[\-]\d{3}[\-]\d{4}"  -->
+                <label for="RequestorPhone" class="standard-label">Phone* </label>
+                <input name="RequestorPhone" id="RequestorPhone"
+                    placeholder="999-999-9999"/>
 
                 <br />
                 <br />
@@ -75,7 +75,7 @@
                 <br />
                 <br />
 
-                <label for="Message" class="standard-label">Message </label>
+                <label for="Message" class="standard-label">Message* </label>
                 <textarea name="Message" id="Message" maxlength="240" rows="8" cols="25" required></textarea>
                 <br />
 
@@ -122,6 +122,7 @@
         <br />
     </footer>
     <script src="js/tota11y.min.js"></script>
+    <script src="script.js"></script>
 </body>
 <!-- CREDITS -->
 <!--Title of the Image" by [Artist's Name], Icon Finder. License: [License Type]. Available at: [URL]-->

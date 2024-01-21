@@ -384,6 +384,11 @@ table.tbl-experience th {
   font-size: 35px;
 }
 
+.error-message {
+  color: red;
+  font-size: 0.8em;
+}
+
 svg* {
   transform-box: fill-box;
 }
