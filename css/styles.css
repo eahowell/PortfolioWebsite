@@ -42,7 +42,7 @@ header {
   color: var(--AccentPink);
   background: var(--MainBlue);
   /* background: linear-gradient(180deg, var(--DarkBlue) 0%, var(--AccentPink) 33%, var(--Peach) 62%, var(--MainBlue) 100%); */
-  height: 200px;
+  height: 150px;
 }
 
 #HeaderLogoImage {
@@ -61,7 +61,6 @@ main {
   flex-direction: column;
   text-align: center;
   font-size: 12px;
-  margin-top: 75px;
 }
 
 /* Nav Bar Stylings */
@@ -142,6 +141,8 @@ a:focus {
   position: relative;
   z-index: 0;
   cursor: pointer;  
+  margin: 0px 10px;
+  padding: 10px 10px;
 }
 
 .navigation-list .navigation-list__item .navigation-list__item--active {
@@ -201,6 +202,7 @@ input.button {
   display: inline-block;
   font-family: inherit;
   text-decoration: none;
+  font-weight: bold;
   background-color: var(--ShadowAccentBlue);
   color: var(--LightText);
   font-size: 20px;
@@ -232,7 +234,7 @@ input.button:active {
 button:visited,
 .button1:visited,
 input.button:visited {
-  color: LightText;
+  color: var(--LightText);
 }
 
 .form__contact {
@@ -283,6 +285,7 @@ table.tbl-experience th {
 
 .bio__text {
   flex: 1 1 1000px;
+  font-size: large;
 }
 
 .profile {
@@ -351,48 +354,10 @@ svg* {
   transform-box: fill-box;
 }
 
-.svg-beach {
-  width: 600px;
-  margin-left: 20px;
-  border: 5px solid var(--DarkBlue);
-  border-radius: 20%;
-}
-
-/* Boat animation */
-@keyframes boat-move {
-  from {
-      transform: translate(-30px, 10px);
-  }
-
-  to {
-      transform: translate(380px, 10px);
-  }
-}
-
-@keyframes color-change {
-  0% {
-      fill: var(--Sun-Lite);
-  }
-
-  50% {
-      fill: var(--Sun-Mid);
-  }
-
-  100% {
-      fill: var(--Sun-Full);
-  }
-}
-
-.boat {
-  animation: 20s boat-move infinite linear;
-}
-
-.sun {
-  animation: 10s color-change infinite alternate linear;
-}
-
-#link__SailboatCredit {
-  font-size: 10px;
+.AboutSVG {
+  height: 450px;
+  width: auto;
+  margin: 5px;
 }
 
 
@@ -479,6 +444,11 @@ svg* {
     width: auto;
     height: auto;
   }
+  .bio__text {
+    display: block;
+    width: 300px;
+    margin: 5px;
+}
 }
 
 /* For medium displays */
@@ -533,8 +503,12 @@ svg* {
       display: block;
       margin: 5px;
   }
-  .svg-beach {
-      width: 400px;
-      margin: 5px;
+  .AboutSVG {
+    height: 150px;
+    width: auto;
+    margin: 5px;
+    text-align: center;
+  align-items: center;
+  justify-content: center;
   }
 }
