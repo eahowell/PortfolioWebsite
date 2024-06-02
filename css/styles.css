@@ -1,11 +1,15 @@
 :root {
+  --MainBlue: #052438;
+  --AccentBlue: #63B0A4;
+  --AccentPink: #922B55;
+  --LightText: #EFE9E4;
+  --ShadowAccentBlue: #4A8D89;
   --DarkBlue: #0a1464;
   --MidBlue: #1d2983;
   --LightBlue: #a9bbe4;
-  --HotPink: #e928bd;
   --Peach: #ef88aa;
   --OpacquePeach: #ef88aa80;
-  --LightPurple: #f6e6ff;
+  
   --Sun-Full: #f76414;
   --Sun-Mid: #fcffad;
   --Sun-Lite: #edc655;
@@ -26,18 +30,19 @@ html {
 /* end of credit */
 
 body {
-  background-color: var(--LightPurple);
-  font-family: "Roboto Slab", serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.1;
+  background-color: var(--MainBlue);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 25px; 
+  color:var(--LightText);
 }
 
 header {
-  color: var(--HotPink);
-  background: var(--DarkBlue);
-  background: linear-gradient(180deg, var(--DarkBlue) 0%, var(--HotPink) 33%, var(--Peach) 62%, var(--LightPurple) 100%);
-  height: 200px;
+  color: var(--AccentPink);
+  background: var(--MainBlue);
+  /* background: linear-gradient(180deg, var(--DarkBlue) 0%, var(--AccentPink) 33%, var(--Peach) 62%, var(--MainBlue) 100%); */
+  height: 150px;
 }
 
 #HeaderLogoImage {
@@ -56,14 +61,14 @@ main {
   flex-direction: column;
   text-align: center;
   font-size: 12px;
-  margin-top: 75px;
 }
 
 /* Nav Bar Stylings */
 .main-navigation {
   text-align: center;
+  justify-content:center;
   font-size: 40px;
-  color: black;
+  color: var(--LightText);
   margin: 0 0;
   padding: 0;
 }
@@ -87,7 +92,7 @@ h1 {
   font-size: 30px;
   font-weight: var(--HeaderWeight);
   line-height: 1.5;
-  color: black;
+  color: var(--LightText);
 }
 
 h2 {
@@ -102,17 +107,17 @@ h3 {
 
 /* Link Stylings */
 a {
-  color: black;
+  color: var(--AccentBlue);
 }
 
 a:visited {
   /* Visited Link */
-  color: var(--MidBlue);
+  color: var(--ShadowAccentBlue);
 }
 
 a:active {
   /* Selected Link */
-  color: var(--HotPink);
+  color: var(--AccentPink);
 }
 
 a:hover,
@@ -124,24 +129,25 @@ a:focus {
 .navigation-list {
   list-style: none;
   text-decoration: none;
-  padding-top: 25px;
+  padding: 25px;  
+  margin: 0;
 }
 
 .navigation-list .navigation-list__item {
   display: inline-block;
   margin-left: 15px;
   font-size: 20px;
-  color: black;
+  color: var(--LightText);
   position: relative;
+  z-index: 0;
+  cursor: pointer;  
   margin: 0px 10px;
   padding: 10px 10px;
-  z-index: 0;
-  cursor: pointer;
 }
 
 .navigation-list .navigation-list__item .navigation-list__item--active {
   text-decoration: none;
-  background-color: var(--LightBlue);
+  background-color: var(--AccentPink);
   padding: 10px 20px;
   border-radius: 10pt;
 }
@@ -152,7 +158,7 @@ a:focus {
   left: 0px;
   width: 100%;
   height: 2px;
-  background: white;
+  background: var(--LightText);
   content: "";
   opacity: 0;
   transition: all 0.3s;
@@ -172,11 +178,12 @@ a:focus {
 .topbottombordersOut a:hover:after {
   opacity: 1;
   transform: translateY(0px);
+  text-decoration: none;
 }
 
 /* Input Stylings */
 input:valid {
-  border: 2px solid black;
+  border: 2px solid var(--LightText);
 }
 
 input:invalid {
@@ -195,12 +202,13 @@ input.button {
   display: inline-block;
   font-family: inherit;
   text-decoration: none;
-  background-color: var(--DarkBlue);
-  color: white;
+  font-weight: bold;
+  background-color: var(--ShadowAccentBlue);
+  color: var(--LightText);
   font-size: 20px;
   padding: 10px 20px;
   border-radius: 10pt;
-  border-bottom: 4px solid var(--MidBlue);
+  border-bottom: 4px solid var(--ShadowAccentBlue);
   transition: opacity 0.9s ease-in-out, transform 0.9s ease-in-out;
 }
 
@@ -211,8 +219,8 @@ button:focus,
 input.button:hover,
 input.button:focus {
   cursor: pointer;
-  background-color: var(--MidBlue);
-  outline: 2px solid var(--HotPink);
+  background-color: var(--ShadowAccentBlue);
+  outline: 2px solid var(--AccentPink);
   opacity: 0.9;
   transform: scale(1.1);
 }
@@ -220,13 +228,13 @@ input.button:focus {
 button:active,
 .button1:active,
 input.button:active {
-  background-color: var(--HotPink);
+  background-color: var(--AccentPink);
 }
 
 button:visited,
 .button1:visited,
 input.button:visited {
-  color: white;
+  color: var(--LightText);
 }
 
 .form__contact {
@@ -242,14 +250,14 @@ input.button:visited {
 }
 
 .contactinfobox {
-  background-color: var(--LightBlue);
-  border: 3px solid var(--DarkBlue);
+  background-color: var(--AccentPink);
+  border: 3px solid var(--AccentBlue);
   margin-right: 25px;
-  border-radius: 15%;
+  border-radius: 30px;
   padding: 30px;
   margin-left: 80px;
-  width: 650px;
-  height: 200px;
+  width: 550px;
+  height: 250px;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -277,28 +285,32 @@ table.tbl-experience th {
 
 .bio__text {
   flex: 1 1 1000px;
+  font-size: large;
 }
 
 .profile {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .profile__portrait {
   float: left;
   margin-right: 40px;
-  max-width: 300px;
+  max-width: 600px;
   width: 100%;
   height: auto;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 .profile__text {
-  font-size: larger;
+  font-size: x-large;
   flex: 1 1 100px;
+  text-align: left;
+  padding: 10px;
+  line-height: 1.75;
 }
 
 /* Start of grid fallback */
@@ -316,20 +328,28 @@ table.tbl-experience th {
 }
 
 .project-list__item {
-  background-color: var(--LightBlue);
+  background-color: #084e5e;
   padding: 30px 10px 30px 10px;
+  color: white;
+}
+
+.project-list__item a{
+  color: white;;
 }
 
 .project-list__item:last-child {
   background-color: rgba(239, 136, 170, 0.5);
+  color: var(--LightText);
   grid-column-start: 3;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 4;
+  color: white;
 }
 
 #CheckBackText {
-  color: var(--HotPink);
+  color: var(--LightText);
+  background: var(--AccentPink);
   font-size: 35px;
 }
 
@@ -342,49 +362,37 @@ svg* {
   transform-box: fill-box;
 }
 
-.svg-beach {
-  width: 600px;
-  margin-left: 20px;
-  border: 5px solid var(--DarkBlue);
-  border-radius: 20%;
+.AboutSVG {
+  height: 450px;
+  width: auto;
+  margin: 5px;
 }
 
-/* Boat animation */
-@keyframes boat-move {
-  from {
-      transform: translate(-30px, 10px);
-  }
 
-  to {
-      transform: translate(380px, 10px);
-  }
+.gitSVG {
+  height: 32px;
+  width: auto;
+  margin: 5px;
 }
 
-@keyframes color-change {
-  0% {
-      fill: var(--Sun-Lite);
-  }
-
-  50% {
-      fill: var(--Sun-Mid);
-  }
-
-  100% {
-      fill: var(--Sun-Full);
-  }
+.xSVG {
+  height: 30px;
+  width: auto;
+  margin: 5px;
 }
 
-.boat {
-  animation: 20s boat-move infinite linear;
+.linkedSVG {
+  height: 35px;
+  width: auto;
+  margin: 5px;
 }
 
-.sun {
-  animation: 10s color-change infinite alternate linear;
+
+.emailLink {
+  color: var(--LightText);
+  
 }
 
-#link__SailboatCredit {
-  font-size: 10px;
-}
 
 /* For smaller displays */
 @media all and (max-width: 430px) {
@@ -420,7 +428,7 @@ svg* {
       max-width: 300px;
       width: 100%;
       height: auto;
-      border-radius: 50%;
+      /* border-radius: 50%; */
   }
 
   .profile__text {
@@ -437,13 +445,18 @@ svg* {
   }
 
   .contactinfobox {
-    background-color: #a9bbe4;
+    background-color: var(--AccentPink);
     border: 3px solid#0a1464;
     margin: 15px;
     padding: 25px;
     width: auto;
     height: auto;
   }
+  .bio__text {
+    display: block;
+    width: 300px;
+    margin: 5px;
+}
 }
 
 /* For medium displays */
@@ -498,8 +511,12 @@ svg* {
       display: block;
       margin: 5px;
   }
-  .svg-beach {
-      width: 400px;
-      margin: 5px;
+  .AboutSVG {
+    height: 150px;
+    width: auto;
+    margin: 5px;
+    text-align: center;
+  align-items: center;
+  justify-content: center;
   }
 }
