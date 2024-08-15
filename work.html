@@ -10,9 +10,15 @@
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
     <!-- Importing Roboto Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <!-- Import Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
     <!-- CSS Style Sheet -->
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <title>Portfolio | Work</title>
@@ -41,8 +47,107 @@
         </nav>
     </header>
     <main>
+        <!-- Modal -->
+        <div class="modal fade" id="ProjectDetailsModalCenter" tabindex="-1" role="dialog"
+            aria-labelledby="ModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered bg-dark vw-100" style="font-size: 18px;" role="document">
+                <div class="modal-content bg-dark " style="width: 1200px;">
+                    <div class="modal-header bg-dark">
+                        <h5 class="modal-title bg-dark" id="DetailsModalCenterTitle">
+                            Project 1: SPA Web App
+                        </h5>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                    </div>
+
+                    <div class="modal-body bg-dark">
+                        <img id="myFlixLogoImage" src="img/myFlixLogo-Light.png" alt="Full Logo for myFlix app"
+                            style="height: 60px;" />
+                        <br>
+                        <a href="https://eahowell-myflix.netlify.app/" target="_blank" title="Link to the live app">
+                            Live App
+                        </a>
+                        <br /><a href="https://github.com/eahowell/myFlix-client" target="_blank"
+                            title="Link to project github repository the frontend code">
+                            Repository Frontend
+                        </a>
+                        <br />
+                        <a href="https://github.com/eahowell/movie_api" target="_blank"
+                            title="Link to project github repository for the backend code">
+                            Repository Backend
+                        </a>
+                        <br><br>
+                        <h2>Description</h2>
+                        <p class="text-start">
+                            This is a full stack web application of a movie
+                            application that provides a list of movies with details
+                            including the description, directors, and actors. A user can
+                            create a profile and add movies to their favorites and a to
+                            watch list.</p>
+
+                        <p class="text-start"> This app uses the MERN (MongoDB, Express, React, and Node. js)
+                            stack</p>
+
+                        <p class="text-start">My role was to build:
+                        <ul class="list-group">
+                            <li class="list-group-item text-start">
+                                ○ Frontend interface to display the movies (and movie
+                                details) and user profile setup and managements
+                            </li>
+                            <li class="list-group-item text-start">
+                                ○ Backend server with the database and the API to access
+                                the database
+                            </li>
+                        </ul>
+                        </p>
+                        <p class="text-start">I learned to:
+                        <ul class="list-group">
+                            <li class="list-group-item text-start">
+                                ○ Build architected database with MongoDB
+                            </li>
+                            <li class="list-group-item text-start">
+                                ○ Create a REST API with proper user documentation
+                            </li>
+                            <li class="list-group-item text-start">
+                                ○ Design a Single Page Application using React
+                            </li>
+                        </ul>
+                        </p>
+                        <h5>Technologies Used</h5>
+                        <ul class="list-group list-group-horizontal">
+                            <li class="list-group-item text-start"> JavaScript </li>
+                            <li class="list-group-item text-start"> Express </li>
+                            <li class="list-group-item text-start"> Mongoose </li>
+                            <li class="list-group-item text-start"> React </li>
+                        </ul>
+                        <ul class="list-group list-group-horizontal">
+                            <li class="list-group-item text-start"> Redux </li>
+                            <li class="list-group-item text-start"> Parcel </li>
+                            <li class="list-group-item text-start"> JSON Web Token </li>
+                            <li class="list-group-item text-start"> MongoDB </li>
+                        </ul>
+                        <ul class="list-group list-group-horizontal">
+                            <li class="list-group-item text-start"> Heroku </li>
+                            <li class="list-group-item text-start"> Netlify </li>
+                            <li class="list-group-item text-start"> Bootstrap </li>
+                            <li class="list-group-item text-start"> CSS </li>
+                            <li class="list-group-item text-start"> HTML </li>
+                            <li class="list-group-item text-start"> Prettier </li>
+                        </ul>
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <h1 id="CheckBackText">
-            Check back soon as items are added to my portfolio!
+            Check back as more items are added to my portfolio!
         </h1>
 
         <section>
@@ -51,13 +156,17 @@
                 <div class="project-list__item">
                     <h2>
                         Project 1: <br />
-                        Mobile Web App
+                        SPA Web App
                     </h2>
-                    <p>Coming Soon!</p>
-                    <p>Project description -- short project description will go here</p>
-                    <a href="#" target="_blank" title="Link to project">
-                        GitHub link to the project
-                    </a>
+                    <img src="img/myFlixLogo-Light.png" alt="Full Logo for myFlix app"
+                    style="height: 60px;" />
+                    <br /><br>
+                    <p>A full-stack movie application using the MERN (MongoDB, Express, React, and Node. js) stack</p>
+                    
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+                        data-bs-target="#ProjectDetailsModalCenter">
+                        View Details
+                    </button>
                 </div>
 
                 <div class="project-list__item">
@@ -121,14 +230,14 @@
         <p>Find me on</p>
         <div class="social-media svgBackgroung">
             <!-- X Icon -->
-            <a href="https://twitter.com/eahowell89" target="_blank" title="Find me on X"><img
-                    src="img/twitter.svg" alt="X icon" class="xSVG"/></a>
+            <a href="https://twitter.com/eahowell89" target="_blank" title="Find me on X"><img src="img/twitter.svg"
+                    alt="X icon" class="xSVG" /></a>
             <!-- LinkedIn Icon -->
             <a href="https://www.linkedin.com/in/elizabethannhowell/" target="_blank" title="Find me on LinkedIn"><img
-                    src="img/linkedin.svg" alt="LinkedIn" class="linkedSVG"/></a>
+                    src="img/linkedin.svg" alt="LinkedIn" class="linkedSVG" /></a>
             <!-- GitHub Icon -->
             <a href="https://github.com/eahowell" target="_blank" title="Find me on GitHub"><img src="img/github.svg"
-                    alt="Github" class="gitSVG"/></a>
+                    alt="Github" class="gitSVG" /></a>
         </div>
         <br />
         <a href="#">Back to top</a>
@@ -137,6 +246,9 @@
         <br />
     </footer>
     <script src="js/tota11y.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 <!-- CREDITS -->
 <!--Title of the Image" by [Artist's Name], Icon Finder. License: [License Type]. Available at: [URL]-->
