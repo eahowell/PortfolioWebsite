@@ -16,8 +16,8 @@ window.showProjectDetails = function(projectId) {
                 modalBody.innerHTML = `
                     <img src="${project.logoImage.src}" alt="${project.logoImage.alt}" style="height: ${project.logoImage.style.height};">
                     <br>
-                    ${project.links.map(link => `<a href="${link.url}" target="_blank" title="${link.title}">${link.text}</a><br>`).join('')}
-                    <br>
+                    ${project.links.map(link => `<a class="project-item-links button1" href="${link.url}" target="_blank" title="${link.title}">${link.text}</a>`).join('')}
+                    <br><br>
                     <h2>Description</h2>
                     <p class="text-start">${project.description}</p>
                     <p class="text-start">${project.stack}</p>

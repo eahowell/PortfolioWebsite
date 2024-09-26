@@ -444,6 +444,13 @@ svg* {
   border-color: var(--AccentBlue);
 }
 
+.project-item-links {
+  font-size: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
 /* General section styling */
 #skills {
   margin-top: 2em;
