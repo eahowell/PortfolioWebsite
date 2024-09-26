@@ -89,6 +89,9 @@ main {
   text-align: center;
   font-size: 12px;
 }
+.contact-footer {
+  font-size: 35px;
+}
 
 /* Nav Bar Stylings */
 .main-navigation {
@@ -179,33 +182,35 @@ a:focus {
   border-radius: 10pt;
 }
 
-.topbottombordersOut a:before,
-.topbottombordersOut a:after {
-  position: absolute;
-  left: 0px;
-  width: 100%;
-  height: 2px;
-  background: var(--LightText);
-  content: "";
-  opacity: 0;
-  transition: all 0.3s;
+
+/* Brackets go out */
+.brackets a:before, .brackets a:after
+{
+    position: absolute;
+    opacity: 0;
+    font-size: 35px;
+    top: 0px;
+    transition: all 0.3s;
 }
 
-.topbottombordersOut a:before {
-  top: 0px;
-  transform: translateY(10px);
+.brackets a:before
+{
+    content: '(';
+    left: 0px;
+    transform: translateX(10px);
 }
 
-.topbottombordersOut a:after {
-  bottom: 0px;
-  transform: translateY(-10px);
+.brackets a:after
+{
+    content: ')';
+    right: 0px;
+    transform: translateX(-10px);
 }
 
-.topbottombordersOut a:hover:before,
-.topbottombordersOut a:hover:after {
-  opacity: 1;
-  transform: translateY(0px);
-  text-decoration: none;
+.brackets a:hover:before, .brackets a:hover:after
+{
+    opacity: 1;
+    transform: translateX(0px);
 }
 
 /* Input Stylings */
@@ -287,7 +292,7 @@ input.button:visited {
   margin-right: 25px;
   border-radius: 30px;
   padding: 30px;
-  margin-left: 80px;
+  margin-left: 25px;
   width: 550px;
   height: 250px;
   text-align: center;
@@ -423,6 +428,17 @@ svg* {
   margin: 5px;
 }
 
+.gitSVG-contact, .linkedSVG-contact {
+  height: 100px;
+  width: auto;
+  margin: 25px;
+}
+
+.xSVG-contact {
+  height: 95px;
+  width: auto;
+  margin: 25px;
+}
 
 .emailLink {
   color: var(--LightText);

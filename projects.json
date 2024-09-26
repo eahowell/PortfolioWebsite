@@ -17,7 +17,7 @@
             "title": "Link to the live app"
           },
           {
-            "text": "Repository Frontend",
+            "text": "Repository",
             "url": "https://github.com/eahowell/pokedex-js-app",
             "title": "Link to project github repository"
           }
@@ -61,12 +61,12 @@
             "title": "Link to the live app"
           },
           {
-            "text": "Repository Frontend",
+            "text": "Frontend Repository",
             "url": "https://github.com/eahowell/myFlix-client",
-            "title": "Link to project github repository the frontend code"
+            "title": "Link to project github repository for the frontend code"
           },
           {
-            "text": "Repository Backend",
+            "text": "Backend Repository",
             "url": "https://github.com/eahowell/movie_api",
             "title": "Link to project github repository for the backend code"
           }
