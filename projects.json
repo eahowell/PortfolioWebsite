@@ -2,7 +2,51 @@
     "projects": [
       {
         "id": 1,
-        "title": "Project 1: SPA Web App",
+        "title": "Project 1: Dynamic Webpage",
+        "logoImage": {
+          "src": "img/PokedexLogo.png",
+          "alt": "Full Logo for Pokedex",
+          "style": {
+            "height": "60px"
+          }
+        },
+        "links": [
+          {
+            "text": "Live App",
+            "url": "https://eahowell.github.io/pokedex-js-app/",
+            "title": "Link to the live app"
+          },
+          {
+            "text": "Repository Frontend",
+            "url": "https://github.com/eahowell/pokedex-js-app",
+            "title": "Link to project github repository"
+          }
+        ],
+        "description": "This is a a small web application with HTML, CSS, and JavaScript that loads data from an external API and enables the viewing of data points in detail.",
+        "stack": "This app uses HTML, CSS, and JavaScript",
+        "role": [
+          "Build the frontend interface displaying a list of Pokémon, when clicked upon the details of the selected Pokémon will appear in a popup.",
+          "Reading in the data from the API, parsing the info, and displaying the details of each Pokémon."
+        ],
+        "learnings": [
+          "Load data from an external source (API)",
+          "Creating and using Modals",
+          "Design a dynamic site",
+          "Using Bootstrap for styling"
+        ],
+        "technologies": [
+          "JavaScript",
+          "jQuery",
+          "Polyfill",
+          "Bootstrap",
+          "CSS",
+          "HTML",
+          "Prettier"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Project 2: SPA Web App",
         "logoImage": {
           "src": "img/myFlixLogo-Light.png",
           "alt": "Full Logo for myFlix app",
@@ -56,8 +100,8 @@
         ]
       },
       {
-        "id": 2,
-        "title": "Project 2: PWA Web App",
+        "id": 3,
+        "title": "Project 3: PWA Web App",
         "logoImage": {
           "src": "img/CliqueUpLogo.png",
           "alt": "Full Logo for CliqueUp app",
