@@ -1,0 +1,110 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "title": "Project 1: SPA Web App",
+        "logoImage": {
+          "src": "img/myFlixLogo-Light.png",
+          "alt": "Full Logo for myFlix app",
+          "style": {
+            "height": "60px"
+          }
+        },
+        "links": [
+          {
+            "text": "Live App",
+            "url": "https://eahowell-myflix.netlify.app/",
+            "title": "Link to the live app"
+          },
+          {
+            "text": "Repository Frontend",
+            "url": "https://github.com/eahowell/myFlix-client",
+            "title": "Link to project github repository the frontend code"
+          },
+          {
+            "text": "Repository Backend",
+            "url": "https://github.com/eahowell/movie_api",
+            "title": "Link to project github repository for the backend code"
+          }
+        ],
+        "description": "This is a full stack web application of a movie application that provides a list of movies with details including the description, directors, and actors. A user can create a profile and add movies to their favorites and a to watch list.",
+        "stack": "This app uses the MERN (MongoDB, Express, React, and Node. js) stack",
+        "role": [
+          "Frontend interface to display the movies (and movie details) and user profile setup and managements",
+          "Backend server with the database and the API to access the database"
+        ],
+        "learnings": [
+          "Build architected database with MongoDB",
+          "Create a REST API with proper user documentation",
+          "Design a Single Page Application using React"
+        ],
+        "technologies": [
+          "JavaScript",
+          "Express",
+          "Mongoose",
+          "React",
+          "Redux",
+          "Parcel",
+          "JSON Web Token",
+          "MongoDB",
+          "Heroku",
+          "Netlify",
+          "Bootstrap",
+          "CSS",
+          "HTML",
+          "Prettier"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Project 2: PWA Web App",
+        "logoImage": {
+          "src": "img/CliqueUpLogo.png",
+          "alt": "Full Logo for CliqueUp app",
+          "style": {
+            "height": "60px"
+          }
+        },
+        "links": [
+          {
+            "text": "Live App",
+            "url": "https://eahowell.github.io/meet/",
+            "title": "Link to the live app"
+          },
+          {
+            "text": "Repository",
+            "url": "https://github.com/eahowell/meet",
+            "title": "Link to project github repository"
+          }          
+        ],
+        "description": "Goal was to build a serverless, progressive web application (PWA) with React using a test-driven development (TDD) technique. The application uses the Google Calendar API to fetch upcoming events.",
+        "stack": "This app uses React, Rechart, AWS Lambda, OAuth, Google Cloud, Google Calendar API. The testing uses React Testing Library, Jest, Jest-Cucumber, and Puppeteer",
+        "role": [
+          "Set up the serverless function using AWS Lambda and hosted on AWS",
+          "Set up the Authorization Server using Google OAuth to provide the access tokens needed to access to the Google Calendar API",
+          "Build a progressive web app using React to that allowed users to filter by city, show/hide event details, specify the number of events to display, use the app offline,  add a home screen shortcut, and display charts visualizing event details"
+        ],
+        "learnings": [
+          "Set up a serverless functions using AWS Lambda",
+          "Set up an Authorization Server",
+          "Design a Progressive Web Application using React",
+          "Create unit, integration, and end-to-end testing"
+        ],
+        "technologies": [
+          "JavaScript",
+          "React",
+          "Recharts",
+          "AWS Lambda",
+          "Google Cloud OAuth",
+          "Jest",
+          "Jest-Cucumber",
+          "Puppeteer",
+          "Bootstrap",
+          "CSS",
+          "HTML",
+          "Prettier",
+          "ESLint"
+        ]
+      }
+    ]
+  }
