@@ -13,29 +13,38 @@ window.showProjectDetails = function(projectId) {
                 document.getElementById("DetailsModalCenterTitle").textContent = project.title;
 
                 const modalBody = document.getElementById("modalBody");
-                modalBody.innerHTML = `
-                    <img src="${project.logoImage.src}" alt="${project.logoImage.alt}" style="height: ${project.logoImage.style.height};">
-                    <br>
-                    ${project.links.map(link => `<a class="project-item-links button1" href="${link.url}" target="_blank" title="${link.title}">${link.text}</a>`).join('')}
-                    <br><br>
-                    <h2>Description</h2>
-                    <p class="text-start">${project.description}</p>
-                    <p class="text-start">${project.stack}</p>
-                    <h3>My role was to build:</h3>
-                    <ul class="list-group">
-                        ${project.role.map(item => `<li class="list-group-item text-start">${item}</li>`).join('')}
-                    </ul>
-                    <br/>
-                    <h3>I learned to:</h3>
-                    <ul class="list-group">
-                        ${project.learnings.map(item => `<li class="list-group-item text-start">${item}</li>`).join('')}
-                    </ul>
-                    <br/>
-                    <h3>Technologies Used</h3>
-                    <ul class="list-group list-group-horizontal flex-wrap">
-                        ${project.technologies.map(tech => `<li class="list-group-item text-start">${tech}</li>`).join('')}
-                    </ul>
-                `;
+modalBody.innerHTML = `
+    <img src="${project.logoImage.src}" alt="${project.logoImage.alt}" style="height: ${project.logoImage.style.height};">
+    <br>
+    ${project.links.map(link => `<a class="project-item-links button1" href="${link.url}" target="_blank" title="${link.title}">${link.text}</a>`).join('')}
+    <br><br>
+    <h2>Description</h2>
+    <p class="text-start">${project.description}</p>
+    <p class="text-start">${project.stack}</p>
+    <h3>My role was to build:</h3>
+    <ul class="list-group">
+        ${project.role.map(item => `<li class="list-group-item text-start">${item}</li>`).join('')}
+    </ul>
+    <br/>
+    <h3>I learned to:</h3>
+    <ul class="list-group">
+        ${project.learnings.map(item => `<li class="list-group-item text-start">${item}</li>`).join('')}
+    </ul>
+    <br/>
+    <h3>Technologies Used</h3>
+    <ul class="list-group list-group-horizontal flex-wrap">
+        ${project.technologies.map(tech => `<li class="list-group-item text-start">${tech}</li>`).join('')}
+    </ul>
+    <br/>
+    <h3>Project Images</h3>
+    <div class="project-images">
+        ${project.images.map(image => `
+            <div class="project-image-container">
+                <img src="${image.src}" alt="${image.alt}" style="height: ${image.style.height};">
+            </div>
+        `).join('')}
+    </div>
+`;
 
                 const modal = new bootstrap.Modal(document.getElementById("ProjectDetailsModalCenter"));
                 modal.show();
