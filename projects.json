@@ -42,7 +42,8 @@
         "CSS",
         "HTML",
         "Prettier"
-      ]
+      ],
+      "images":[]
     },
     {
       "id": 2,
@@ -97,7 +98,8 @@
         "CSS",
         "HTML",
         "Prettier"
-      ]
+      ],
+      "images":[]
     },
     {
       "id": 3,
@@ -148,7 +150,8 @@
         "HTML",
         "Prettier",
         "ESLint"
-      ]
+      ],
+      "images":[]
     },
     {
       "id": 4,
