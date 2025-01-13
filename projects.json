@@ -43,7 +43,7 @@
         "HTML",
         "Prettier"
       ],
-      "images":[
+      "images": [
         {
           "src": "img/PokedexScreenshot1.png",
           "alt": "Pokedex Main Page showing list of clickable Pokemon",
@@ -62,7 +62,7 @@
     },
     {
       "id": 2,
-      "title": "Project 2: SPA Web App",
+      "title": "Project 2: SPA Full Stack Web App (React)",
       "logoImage": {
         "src": "img/myFlixLogo-Light.png",
         "alt": "Full Logo for myFlix app",
@@ -87,7 +87,7 @@
           "title": "Link to project github repository for the backend code"
         }
       ],
-      "description": "This is a full stack web application of a movie application that provides a list of movies with details including the description, directors, and actors. A user can create a profile and add movies to their favorites and a to watch list.",
+      "description": "This is a full stack web application using React for the client side. The movie application provides a list of movies with details including the description, directors, and actors. A user can create a profile and add movies to their favorites and a to watch list.",
       "stack": "This app uses the MERN (MongoDB, Express, React, and Node. js) stack",
       "role": [
         "Frontend interface to display the movies (and movie details) and user profile setup and managements",
@@ -114,7 +114,43 @@
         "HTML",
         "Prettier"
       ],
-      "images":[]
+      "images": [
+        {
+          "src": "img/MERNmyFlixScreenshot1.png",
+          "alt": "Screenshot of myFlix Create Account Page",
+          "style": {
+            "height": "300px"
+          }
+        },
+        {
+          "src": "img/MERNmyFlixScreenshot2.png",
+          "alt": "Screenshot of myFlix Signin Page",
+          "style": {
+            "height": "300px"
+          }
+        },
+        {
+          "src": "img/MERNmyFlixScreenshot5.png",
+          "alt": "Screenshot of myFlix User Profile Page",
+          "style": {
+            "height": "300px"
+          }
+        },
+        {
+          "src": "img/MERNmyFlixScreenshot3.png",
+          "alt": "Screenshot of myFlix Movies List Page",
+          "style": {
+            "height": "300px"
+          }
+        },
+        {
+          "src": "img/MERNmyFlixScreenshot4.png",
+          "alt": "Screenshot of myFlix Movie Details Page",
+          "style": {
+            "height": "300px"
+          }
+        }
+      ]
     },
     {
       "id": 3,
@@ -166,7 +202,7 @@
         "Prettier",
         "ESLint"
       ],
-      "images":[]
+      "images": []
     },
     {
       "id": 4,
@@ -227,6 +263,97 @@
           }
         }
       ]
+    },
+    {
+      "id": 5,
+      "title": "Project 5: SPA Full-Stack Web App (Angular)",
+      "logoImage": {
+        "src": "img/myFlixLogoAngular.png",
+        "alt": "Full Logo for myFlix app",
+        "style": {
+          "height": "60px"
+        }
+      },
+      "links": [
+        {
+          "text": "Live App",
+          "url": "https://eahowell.github.io/myFlix-Angular-client/",
+          "title": "Link to the live app"
+        },
+        {
+          "text": "Frontend Repository",
+          "url": "https://github.com/eahowell/myFlix-Angular-client",
+          "title": "Link to project github repository for the frontend code"
+        },
+        {
+          "text": "Backend Repository",
+          "url": "https://github.com/eahowell/movie_api",
+          "title": "Link to project github repository for the backend code"
+        }
+      ],
+      "description": "This is a full stack web application using Angular for the client side. This uses the backend created in Project 2. The movie application provides a list of movies with details including the description, directors, and actors. A user can create a profile and add movies to their favorites and a to watch list.",
+      "stack": "This app uses the MEAN (MongoDB, Express, Angular, and Node. js) stack",
+      "role": [
+        "Frontend interface using Angular to display the movies (and movie details) and user profile setup and managements",
+        "Using the previously made backend server with the database and the API to access the database"
+      ],
+      "learnings": [
+        "Create documentation with JSDoc and TypeDoc",
+        "Design a Single Page Application using Angular"
+      ],
+      "technologies": [
+        "Angular",
+        "TypeScript",
+        "TypeDoc",
+        "JSDoc",
+        "Material Design",
+        "RXJS",
+        "SCSS",
+        "HTML",
+        "Express",
+        "JavaScript - Backend",        
+        "Mongoose - Backend",        
+        "Redux - Backend",
+        "Parcel - Backend",
+        "JSON Web Token - Backend",
+        "MongoDB - Backend",
+        "Heroku - Backend"
+      ],
+      "images": [{
+        "src": "img/MEANmyFlixScreenshot1.png",
+        "alt": "Screenshot of myFlix Create Account Page",
+        "style": {
+          "height": "300px"
+        }
+      },
+      {
+        "src": "img/MEANmyFlixScreenshot2.png",
+        "alt": "Screenshot of myFlix Signin Page",
+        "style": {
+          "height": "300px"
+        }
+      },
+      {
+        "src": "img/MEANmyFlixScreenshot5.png",
+        "alt": "Screenshot of myFlix User Profile Page",
+        "style": {
+          "height": "300px"
+        }
+      },
+      {
+        "src": "img/MEANmyFlixScreenshot3.png",
+        "alt": "Screenshot of myFlix Movies List Page",
+        "style": {
+          "height": "300px"
+        }
+      },
+      {
+        "src": "img/MEANmyFlixScreenshot4.png",
+        "alt": "Screenshot of myFlix Movie Details Page",
+        "style": {
+          "height": "300px"
+        }
+      }]
     }
   ]
 }
