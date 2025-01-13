@@ -44,12 +44,14 @@ document.addEventListener('DOMContentLoaded', function() {
         throw new Error('Invalid response from server');
       }
       
-      if (responseData.statusCode === 200) {
+      // Check if we have a successful response with a message
+      if (response.ok && responseData.message === 'Email sent successfully') {
         statusMessage.className = 'status-message success';
         statusMessage.textContent = 'Message sent successfully!';
         form.reset();
       } else {
-        const errorMsg = responseData.body ? JSON.parse(responseData.body).message : 'Failed to send message';
+        // If we have an error message in the response, use it
+        const errorMsg = responseData.message || 'Failed to send message';
         throw new Error(errorMsg);
       }
     } catch (error) {

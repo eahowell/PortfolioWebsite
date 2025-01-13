@@ -3,17 +3,24 @@ import { SES } from '@aws-sdk/client-ses';
 const ses = new SES({ region: 'us-east-2' }); 
 
 export const handler = async (event) => {
-    console.log('Event received:', JSON.stringify(event, null, 2));
-    
+    // Log the entire event first
+    console.log('Incoming event structure:', {
+        httpMethod: event.httpMethod,
+        headers: event.headers,
+        body: event.body,
+        isBase64Encoded: event.isBase64Encoded
+    });
+
     const headers = {
         'Access-Control-Allow-Origin': 'https://eahowell.github.io',
         'Access-Control-Allow-Headers': 'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,Accept',
         'Access-Control-Allow-Methods': 'OPTIONS,POST',
         'Access-Control-Allow-Credentials': true,
-        'Access-Control-Expose-Headers': 'Date,X-Amzn-ErrorType'
+        'Access-Control-Expose-Headers': 'Date,X-Amzn-ErrorType',
+        'Content-Type': 'application/json'
     };
 
-    // Handle OPTIONS request
+    // Handle preflight requests
     if (event.httpMethod === 'OPTIONS') {
         return {
             statusCode: 200,
@@ -23,90 +30,114 @@ export const handler = async (event) => {
     }
 
     try {
-        console.log('Parsing request body');
-        const body = JSON.parse(event.body);
-        const { name, email, subject, message } = body;
-        
-        console.log('Validating input fields');
+        // Log the raw body
+        console.log('Raw event.body:', event.body);
+        console.log('Type of event.body:', typeof event.body);
+
+        // Handle potential string or object body
+        let parsedBody;
+        if (typeof event.body === 'string') {
+            try {
+                parsedBody = JSON.parse(event.body);
+            } catch (parseError) {
+                console.error('JSON parsing error:', parseError);
+                return {
+                    statusCode: 400,
+                    headers,
+                    body: JSON.stringify({
+                        message: 'Invalid JSON in request body',
+                        error: parseError.message
+                    })
+                };
+            }
+        } else if (typeof event.body === 'object') {
+            parsedBody = event.body;
+        } else {
+            console.error('Unexpected body type:', typeof event.body);
+            return {
+                statusCode: 400,
+                headers,
+                body: JSON.stringify({
+                    message: 'Invalid request format',
+                    error: `Unexpected body type: ${typeof event.body}`
+                })
+            };
+        }
+
+        console.log('Parsed body:', parsedBody);
+
+        const { name, email, subject, message } = parsedBody;
+
+        // Validate required fields
         if (!name || !email || !subject || !message) {
             console.log('Missing required fields:', { name, email, subject, message });
             return {
                 statusCode: 400,
                 headers,
-                body: JSON.stringify({ message: 'Missing required fields' })
+                body: JSON.stringify({
+                    message: 'Missing required fields',
+                    receivedFields: { name, email, subject, message }
+                })
             };
         }
 
+        const VERIFIED_EMAIL = 'ehowell.webdev@gmail.com';
+        
         const params = {
             Destination: {
-                ToAddresses: ['ehowell.webdev@gmail.com']
+                ToAddresses: [VERIFIED_EMAIL]
             },
             Message: {
                 Body: {
                     Text: {
                         Data: `
-Name: ${name}
-Email: ${email}
+New contact form submission:
+
+From: ${name} <${email}>
 Subject: ${subject}
 
 Message:
-${message}`
+${message}
+
+---
+This email was sent from your portfolio contact form. 
+To reply, please email ${email} directly.`
                     }
                 },
                 Subject: {
                     Data: `Portfolio Contact Form: ${subject}`
                 }
             },
-            Source: 'ehowell.webdev@gmail.com'
+            Source: VERIFIED_EMAIL
         };
-        
+
         console.log('Attempting to send email with params:', JSON.stringify(params, null, 2));
-        
-        try {
-            const sesResponse = await ses.sendEmail(params);
-            console.log('SES Response:', JSON.stringify(sesResponse, null, 2));
-        } catch (sesError) {
-            console.error('SES Error:', {
-                name: sesError.name,
-                message: sesError.message,
-                code: sesError.code,
-                statusCode: sesError.$metadata?.httpStatusCode,
-                requestId: sesError.$metadata?.requestId
-            });
-            throw sesError;
-        }
-        
+
+        const sesResponse = await ses.sendEmail(params);
+        console.log('SES Response:', JSON.stringify(sesResponse, null, 2));
+
         return {
             statusCode: 200,
             headers,
-            body: JSON.stringify({ message: 'Email sent successfully' })
+            body: JSON.stringify({
+                message: 'Email sent successfully',
+                messageId: sesResponse.MessageId
+            })
         };
+
     } catch (error) {
-        console.error('Error details:', {
+        console.error('Error in lambda:', {
             name: error.name,
             message: error.message,
-            code: error.code,
-            stack: error.stack
+            stack: error.stack,
+            code: error.code
         });
-        
-        let errorMessage = 'Failed to send email. Please try again later.';
-        let statusCode = 500;
-        
-        if (error.code === 'MessageRejected') {
-            errorMessage = 'Email sending failed: Invalid email configuration';
-        } else if (error.code === 'InvalidParameterValue') {
-            errorMessage = 'Invalid email parameters';
-            statusCode = 400;
-        } else if (error.code === 'AccessDenied') {
-            errorMessage = 'Email sending failed: Permission denied';
-            console.error('SES permissions may not be properly configured');
-        }
-            
+
         return {
-            statusCode,
+            statusCode: 500,
             headers,
-            body: JSON.stringify({ 
-                message: errorMessage,
+            body: JSON.stringify({
+                message: 'Failed to send email. Please try again later.',
                 error: process.env.NODE_ENV === 'development' ? error.message : undefined
             })
         };
