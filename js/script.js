@@ -6,15 +6,12 @@ document.addEventListener('DOMContentLoaded', function() {
   form.addEventListener('submit', async function(e) {
     e.preventDefault();
     
-    // Clear any previous status messages
     statusMessage.style.display = 'none';
     statusMessage.textContent = '';
     
-    // Disable the submit button and show loading state
     submitButton.disabled = true;
     submitButton.textContent = 'Sending...';
     
-    // Get form data
     const formData = {
       name: form.name.value.trim(),
       email: form.email.value.trim(),
@@ -34,38 +31,33 @@ document.addEventListener('DOMContentLoaded', function() {
         body: JSON.stringify(formData)
       });
 
+      console.log('Response status:', response.status);
       const responseText = await response.text();
       console.log('Raw response:', responseText);
       
       let responseData;
       try {
         responseData = JSON.parse(responseText);
+        console.log('Parsed response:', responseData);
       } catch (e) {
         console.error('Error parsing response:', e);
         throw new Error('Invalid response from server');
       }
       
-      // Check both the wrapper response and the inner response
-      const actualStatusCode = responseData.statusCode || response.status;
-      const actualMessage = responseData.body ? JSON.parse(responseData.body).message : responseData.message;
-      
-      if (actualStatusCode === 200) {
-        // Show success message
+      if (responseData.statusCode === 200) {
         statusMessage.className = 'status-message success';
-        statusMessage.textContent = actualMessage || 'Message sent successfully!';
+        statusMessage.textContent = 'Message sent successfully!';
         form.reset();
       } else {
-        throw new Error(actualMessage || `Failed to send message (${actualStatusCode})`);
+        const errorMsg = responseData.body ? JSON.parse(responseData.body).message : 'Failed to send message';
+        throw new Error(errorMsg);
       }
     } catch (error) {
       console.error('Error details:', error);
-      // Show error message
       statusMessage.className = 'status-message error';
       statusMessage.textContent = error.message || 'Failed to send message. Please try again.';
     } finally {
-      // Show the status message
       statusMessage.style.display = 'block';
-      // Re-enable the submit button
       submitButton.disabled = false;
       submitButton.textContent = 'Send Message';
     }
