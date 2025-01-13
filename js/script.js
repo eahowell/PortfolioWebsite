@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
       console.log('Sending request to:', 'https://q37cl062se.execute-api.us-east-2.amazonaws.com/prod/contact');
       console.log('Request payload:', formData);
 
-      const response = await fetch('https://q37cl062se.execute-api.us-east-2.amazonaws.com/contact', {
+      const response = await fetch('https://q37cl062se.execute-api.us-east-2.amazonaws.com/prod/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
