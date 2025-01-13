@@ -202,7 +202,22 @@
         "Prettier",
         "ESLint"
       ],
-      "images": []
+      "images": [
+        {
+          "src": "img/CliqueUpScreenshot1.png",
+          "alt": "Screenshot of CliqueUp Main Page showing charts of event statistics",
+          "style": {
+            "height": "300px"
+          }
+        },
+        {
+          "src": "img/CliqueUpScreenshot2.png",
+          "alt": "Screenshot of CliqueUp Main Page showing list of upcoming events",
+          "style": {
+            "height": "300px"
+          }
+        }
+      ]
     },
     {
       "id": 4,
