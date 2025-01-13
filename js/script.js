@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
       };
 
       try {
-          const response = await fetch('https://q37cl062se.execute-api.us-east-2.amazonaws.com/prod/contact', {
+          const response = await fetch('https://q37cl062se.execute-api.us-east-2.amazonaws.com/contact', {
               method: 'POST',
               headers: {
                   'Content-Type': 'application/json'
