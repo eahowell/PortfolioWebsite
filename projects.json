@@ -263,16 +263,30 @@
         "ESLint"
       ],
       "images": [
+        
         {
-          "src": "img/Chatly-Actions.gif",
-          "alt": "Chatly Action Demonstration",
+          "src": "img/ChatlyScreenshot1.png",
+          "alt": "Screenshot of Chatly's Main Page showing Name input and background color selection",
           "style": {
             "height": "300px"
           }
         },
         {
-          "src": "img/Chatly-OfflineMode.gif",
-          "alt": "Chatly Chat Screen with Online and Offline funtioonalities",
+          "src": "img/ChatlyScreenshot2.png",
+          "alt": "Screenshot of Chatly's Chat Screen",
+          "style": {
+            "height": "300px"
+          }
+        },{
+          "src": "img/ChatlyScreenshot3.png",
+          "alt": "Screenshot of Chatly's  Action Options in the Chat Screen",
+          "style": {
+            "height": "300px"
+          }
+        },
+        {
+          "src": "img/Chatly-Actions.gif",
+          "alt": "Chatly Action Demonstration",
           "style": {
             "height": "300px"
           }
