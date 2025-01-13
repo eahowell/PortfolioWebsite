@@ -23,10 +23,6 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     try {
-      // Log the request details for debugging
-      console.log('Sending request to:', 'https://q37cl062se.execute-api.us-east-2.amazonaws.com/prod/contact');
-      console.log('Request payload:', formData);
-
       const response = await fetch('https://q37cl062se.execute-api.us-east-2.amazonaws.com/prod/contact', {
         method: 'POST',
         headers: {
@@ -36,24 +32,21 @@ document.addEventListener('DOMContentLoaded', function() {
         body: JSON.stringify(formData)
       });
 
-      // Log the response for debugging
-      console.log('Response status:', response.status);
-      const responseData = await response.text();
-      console.log('Response data:', responseData);
-
+      const responseData = await response.json();
+      
       if (response.ok) {
         // Show success message
         statusMessage.className = 'status-message success';
-        statusMessage.textContent = 'Message sent successfully!';
+        statusMessage.textContent = responseData.message || 'Message sent successfully!';
         form.reset();
       } else {
-        throw new Error(`Failed to send message: ${response.status} ${response.statusText}`);
+        throw new Error(responseData.message || `Failed to send message (${response.status})`);
       }
     } catch (error) {
-      console.error('Error details:', error);
+      console.error('Error:', error);
       // Show error message
       statusMessage.className = 'status-message error';
-      statusMessage.textContent = `Failed to send message: ${error.message}. Please try again.`;
+      statusMessage.textContent = error.message || 'Failed to send message. Please try again.';
     } finally {
       // Show the status message
       statusMessage.style.display = 'block';
