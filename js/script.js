@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     try {
       // Log the request details for debugging
-      console.log('Sending request to:', 'https://q37cl062se.execute-api.us-east-2.amazonaws.com/contact');
+      console.log('Sending request to:', 'https://q37cl062se.execute-api.us-east-2.amazonaws.com/prod/contact');
       console.log('Request payload:', formData);
 
       const response = await fetch('https://q37cl062se.execute-api.us-east-2.amazonaws.com/contact', {
