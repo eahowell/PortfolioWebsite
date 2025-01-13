@@ -43,7 +43,22 @@
         "HTML",
         "Prettier"
       ],
-      "images":[]
+      "images":[
+        {
+          "src": "img/PokedexScreenshot1.png",
+          "alt": "Pokedex Main Page showing list of clickable Pokemon",
+          "style": {
+            "height": "300px"
+          }
+        },
+        {
+          "src": "img/PokedexScreenshot2.png",
+          "alt": "Detailed view of selected Pokemon",
+          "style": {
+            "height": "300px"
+          }
+        }
+      ]
     },
     {
       "id": 2,
