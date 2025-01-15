@@ -16,9 +16,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> -->
     <!-- Importing IBM Plex Sans Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
     <!-- CSS Style Sheet -->
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <title>Portfolio | About</title>
@@ -79,10 +82,11 @@
         <div class="bio__text bio__item">
           <h1>A little about me</h1>
           <p>
-            Hi, I'm <strong class="strong">Elizabeth Howell</strong>, a passionate
-            problem-solver based in Austin, TX. I grew up in a small town near
-            Niceville, FL, where I was lucky enough to spend my time near the
-            stunning beaches of Destin and the peaceful Choctawhatchee Bay.
+            Hi, I'm <strong class="strong">Elizabeth Howell</strong>, a
+            passionate problem-solver based in Austin, TX. I grew up in a small
+            town near Niceville, FL, where I was lucky enough to spend my time
+            near the stunning beaches of Destin and the peaceful Choctawhatchee
+            Bay.
           </p>
           <p>
             For the past 11 years, I've thrived as a mechanical engineer in the
@@ -93,73 +97,23 @@
           </p>
           <p>
             I graduated from the University of Florida in 2012 with a
-            <strong class="strong">Bachelor of Science in Mechanical Engineering</strong> and a
-            <strong class="strong">Minor in Bio-mechanics</strong>. My journey has now led me
-            to build interactive, user-friendly web applications that make an
-            impact.
+            <strong class="strong"
+              >Bachelor of Science in Mechanical Engineering</strong
+            >
+            and a <strong class="strong">Minor in Bio-mechanics</strong>. My
+            journey has now led me to build interactive, user-friendly web
+            applications that make an impact.
           </p>
           <br />
           <a href="files/Resume-Howell.pdf" class="button1" download
             >Download my Resume Here!</a
           >
-          <section id="skills">
-            <h2>Skills</h2>
-            
-            <div class="skills-container">
-              <div class="skill-category">
-                <h3>Advanced Proficiency</h3>
-                <ul>
-                  <li>
-                    Troubleshooting and Root Cause Analysis Techniques
-                    <ul>
-                      <li>Kepner-Tregoe</li>
-                      <li>Cause-Mapping</li>
-                    </ul>
-                  </li>
-
-                  <li>
-                    Microsoft Excel and VBA Macros
-                  </li>
-                  <li>Power Platform Applications
-                    <ul>
-                        <li>PowerApps</li>
-                        <li>Power Automate</li>
-                        <li>Power BI</li>
-                    </ul>
-                   
-                  </li>
-                </ul>
-              </div>
-
-              <div class="skill-category">
-                <h3>Proficient</h3>
-                <ul>
-                  <li>JavaScript, React, Node.js, Express, RESTful APIs</li>
-                  <li>HTML, CSS</li>
-                  <li>Version control using Git &amp; GitHub</li>
-                  <li>SQL &amp; NoSQL (MongoDB) Databases</li>
-                  <li>
-                    UI/UX frameworks: Bootstrap, Progressive Web Apps (PWAs)
-                  </li>
-                  <li>Testing: Unit, integration, and end-to-end testing</li>
-                  <li>SharePoint Page Creation and Design</li>
-                  <li>Data Visualizations</li>
-                </ul>
-              </div>
-
-              <div class="skill-category">
-                <h3>Basic Exposure</h3>
-                <ul>
-                  <li>AutoCAD</li>
-                  <li>Ladder Logic</li>
-                  <li>SolidWorks</li>
-                </ul>
-              </div>
-            </div>
+          <!-- Skills Section -->
+          <section id="skills" class="section">
+            <div id="skills-chart-root"></div>
           </section>
           <br />
           <br />
-          
         </div>
       </article>
     </main>
@@ -194,7 +148,21 @@
       <br />
       <br />
     </footer>
-    <!-- <script src="js/tota11y.min.js"></script> -->
+    <!-- React Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+
+    <!-- Skills Chart Component -->
+    <script type="text/babel" src="js/skills-chart.js"></script>
+
+    <!-- Initialize React Component -->
+    <script type="text/babel">
+      ReactDOM.render(
+        <SkillsChart />,
+        document.getElementById("skills-chart-root")
+      );
+    </script>
   </body>
   <!-- CREDITS -->
   <!--Title of the Image" by [Artist's Name], Icon Finder. License: [License Type]. Available at: [URL]-->
