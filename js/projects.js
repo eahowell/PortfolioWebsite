@@ -21,6 +21,8 @@ modalBody.innerHTML = `
     <h2>Description</h2>
     <p class="text-start">${project.description}</p>
     <p class="text-start">${project.stack}</p>
+    <h3 class="text-start"> Login</h3>
+    <p class="text-start"> <strong> ${project.loginData}</p>
     <h3>My role was to build:</h3>
     <ul class="list-group">
         ${project.role.map(item => `<li class="list-group-item text-start">${item}</li>`).join('')}

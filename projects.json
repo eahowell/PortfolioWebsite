@@ -24,6 +24,7 @@
       ],
       "description": "This is a a small web application with HTML, CSS, and JavaScript that loads data from an external API and enables the viewing of data points in detail.",
       "stack": "This app uses HTML, CSS, and JavaScript",
+      "loginData": ["No login required"],
       "role": [
         "Build the frontend interface displaying a list of Pokémon, when clicked upon the details of the selected Pokémon will appear in a popup.",
         "Reading in the data from the API, parsing the info, and displaying the details of each Pokémon."
@@ -88,6 +89,7 @@
         }
       ],
       "description": "This is a full stack web application using React for the client side. The movie application provides a list of movies with details including the description, directors, and actors. A user can create a profile and add movies to their favorites and a to watch list.",
+      "loginData": [ "Username : testportfolio | Password : 12345678" ],
       "stack": "This app uses the MERN (MongoDB, Express, React, and Node. js) stack",
       "role": [
         "Frontend interface to display the movies (and movie details) and user profile setup and managements",
@@ -175,6 +177,7 @@
         }
       ],
       "description": "Goal was to build a serverless, progressive web application (PWA) with React using a test-driven development (TDD) technique. The application uses the Google Calendar API to fetch upcoming events.",
+      "loginData": ["Requires Google Account for OAuth login"],
       "stack": "This app uses React, Rechart, AWS Lambda, OAuth, Google Cloud, Google Calendar API. The testing uses React Testing Library, Jest, Jest-Cucumber, and Puppeteer",
       "role": [
         "Set up the serverless function using AWS Lambda and hosted on AWS",
@@ -237,6 +240,7 @@
         }
       ],
       "description": "This is a mobile chat application built with React Native. It provides users with a chat interface and options to share images and their location.",
+      "loginData": ["No login required, however the repository must be cloned, installed, and then run on an emulator or device.See the README for instructions."],
       "stack": "This app uses React, Node, JavaScript, React Native, Expo, Google Firestore, Google Firebase, and Gifted Chat",
       "role": [
         "Build a React Native App using JavaScript",
@@ -263,7 +267,6 @@
         "ESLint"
       ],
       "images": [
-        
         {
           "src": "img/ChatlyScreenshot1.png",
           "alt": "Screenshot of Chatly's Main Page showing Name input and background color selection",
@@ -277,7 +280,8 @@
           "style": {
             "height": "300px"
           }
-        },{
+        },
+        {
           "src": "img/ChatlyScreenshot3.png",
           "alt": "Screenshot of Chatly's  Action Options in the Chat Screen",
           "style": {
@@ -321,6 +325,7 @@
         }
       ],
       "description": "This is a full stack web application using Angular for the client side. This uses the backend created in Project 2. The movie application provides a list of movies with details including the description, directors, and actors. A user can create a profile and add movies to their favorites and a to watch list.",
+      "loginData": [ "Username : testportfolio | Password : 12345678" ],
       "stack": "This app uses the MEAN (MongoDB, Express, Angular, and Node. js) stack",
       "role": [
         "Frontend interface using Angular to display the movies (and movie details) and user profile setup and managements",
@@ -340,49 +345,51 @@
         "SCSS",
         "HTML",
         "Express",
-        "JavaScript - Backend",        
-        "Mongoose - Backend",        
+        "JavaScript - Backend",
+        "Mongoose - Backend",
         "Redux - Backend",
         "Parcel - Backend",
         "JSON Web Token - Backend",
         "MongoDB - Backend",
         "Heroku - Backend"
       ],
-      "images": [{
-        "src": "img/MEANmyFlixScreenshot1.png",
-        "alt": "Screenshot of myFlix Create Account Page",
-        "style": {
-          "height": "300px"
+      "images": [
+        {
+          "src": "img/MEANmyFlixScreenshot1.png",
+          "alt": "Screenshot of myFlix Create Account Page",
+          "style": {
+            "height": "300px"
+          }
+        },
+        {
+          "src": "img/MEANmyFlixScreenshot2.png",
+          "alt": "Screenshot of myFlix Signin Page",
+          "style": {
+            "height": "300px"
+          }
+        },
+        {
+          "src": "img/MEANmyFlixScreenshot5.png",
+          "alt": "Screenshot of myFlix User Profile Page",
+          "style": {
+            "height": "300px"
+          }
+        },
+        {
+          "src": "img/MEANmyFlixScreenshot3.png",
+          "alt": "Screenshot of myFlix Movies List Page",
+          "style": {
+            "height": "300px"
+          }
+        },
+        {
+          "src": "img/MEANmyFlixScreenshot4.png",
+          "alt": "Screenshot of myFlix Movie Details Page",
+          "style": {
+            "height": "300px"
+          }
         }
-      },
-      {
-        "src": "img/MEANmyFlixScreenshot2.png",
-        "alt": "Screenshot of myFlix Signin Page",
-        "style": {
-          "height": "300px"
-        }
-      },
-      {
-        "src": "img/MEANmyFlixScreenshot5.png",
-        "alt": "Screenshot of myFlix User Profile Page",
-        "style": {
-          "height": "300px"
-        }
-      },
-      {
-        "src": "img/MEANmyFlixScreenshot3.png",
-        "alt": "Screenshot of myFlix Movies List Page",
-        "style": {
-          "height": "300px"
-        }
-      },
-      {
-        "src": "img/MEANmyFlixScreenshot4.png",
-        "alt": "Screenshot of myFlix Movie Details Page",
-        "style": {
-          "height": "300px"
-        }
-      }]
+      ]
     }
   ]
 }
