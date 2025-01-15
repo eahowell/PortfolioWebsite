@@ -23,6 +23,17 @@ modalBody.innerHTML = `
     <p class="text-start">${project.stack}</p>
     <h3 class="text-start"> Login</h3>
     <p class="text-start"> <strong> ${project.loginData}</p>
+    <br/>
+    <h3>Project Images</h3>
+    <div class="project-images">
+        ${project.images.map(image => `
+            <div class="project-image-container">
+                <img src="${image.src}" alt="${image.alt}" style="height: ${image.style.height};">
+            </div>
+        `).join('')}
+    </div>
+    <br/>
+
     <h3>My role was to build:</h3>
     <ul class="list-group">
         ${project.role.map(item => `<li class="list-group-item text-start">${item}</li>`).join('')}
@@ -37,15 +48,7 @@ modalBody.innerHTML = `
     <ul class="list-group list-group-horizontal flex-wrap">
         ${project.technologies.map(tech => `<li class="list-group-item text-start">${tech}</li>`).join('')}
     </ul>
-    <br/>
-    <h3>Project Images</h3>
-    <div class="project-images">
-        ${project.images.map(image => `
-            <div class="project-image-container">
-                <img src="${image.src}" alt="${image.alt}" style="height: ${image.style.height};">
-            </div>
-        `).join('')}
-    </div>
+    
 `;
 
                 const modal = new bootstrap.Modal(document.getElementById("ProjectDetailsModalCenter"));
@@ -73,10 +76,17 @@ document.addEventListener('DOMContentLoaded', function() {
                 const projectItem = document.createElement("div");
                 projectItem.className = "project-list__item";
                 projectItem.innerHTML = `
-                    <h3>${project.title}</h3>
-                    <img src="${project.logoImage.src}" alt="${project.logoImage.alt}" style="height: ${project.logoImage.style.height};">
-                    <p>${project.description}</p>
-                    <button class="btn btn-secondary" onclick="showProjectDetails(${project.id})">View Details</button>
+                    <div class="project-header">
+                        <h3>${project.title}</h3>
+                        <img src="${project.logoImage.src}" alt="${project.logoImage.alt}" style="height: ${project.logoImage.style.height};">
+                    </div>
+                    <div class="project-content">
+                        <img src="${project.images[0].src}" alt="Project preview" class="project-preview">
+                        <div class="project-text">
+                            <p>${project.description}</p>
+                            <button class="btn btn-secondary" onclick="showProjectDetails(${project.id})">View Details</button>
+                        </div>
+                    </div>
                 `;
                 projectList.appendChild(projectItem);
             });

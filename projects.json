@@ -207,6 +207,13 @@
       ],
       "images": [
         {
+          "src": "img/CliqueUpScreenshot0.png",
+          "alt": "Screenshot of CliqueUp Main Page showing charts of event statistics",
+          "style": {
+            "height": "300px"
+          }
+        },
+        {
           "src": "img/CliqueUpScreenshot1.png",
           "alt": "Screenshot of CliqueUp Main Page showing charts of event statistics",
           "style": {
@@ -354,6 +361,13 @@
         "Heroku - Backend"
       ],
       "images": [
+        {
+          "src": "img/MEANmyFlixScreenshot0.png",
+          "alt": "Screenshot of myFlix Welcome Page",
+          "style": {
+            "height": "300px"
+          }
+        },
         {
           "src": "img/MEANmyFlixScreenshot1.png",
           "alt": "Screenshot of myFlix Create Account Page",
