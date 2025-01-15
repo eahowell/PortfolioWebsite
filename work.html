@@ -16,9 +16,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> -->
     <!-- Importing IBM Plex Sans Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Import Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -48,7 +51,7 @@
               href="./index.html"
               role="menuitem"
               title="Home"
-              class="navigation-list__item"
+              class="navigation-list__item--inactive"
               >Home</a
             >
           </li>
@@ -57,7 +60,7 @@
               href="./about.html"
               role="menuitem"
               title="About Me"
-              class="navigation-list__item"
+              class="navigation-list__item--inactive"
               >About Me</a
             >
           </li>
@@ -66,7 +69,7 @@
               href="./work.html"
               role="menuitem"
               title="Portfolio"
-              class="navigation-list__item navigation-list__item--active"
+              class="navigation-list__item--active"
               >Portfolio</a
             >
           </li>
@@ -75,7 +78,7 @@
               href="./contact.html"
               role="menuitem"
               title="Contact"
-              class="navigation-list__item"
+              class="navigation-list__item--inactive"
               >Contact</a
             >
           </li>
@@ -83,8 +86,18 @@
       </nav>
     </header>
     <main role="main">
-
       <section class="section">
+        <div class="project-list-yourproject">
+          <h2>Your project?</h2>
+          <p>
+            I'd love to help you with your front-end and back-end needs! I work
+            in the following: React.js, JavaScript, Angular, HTML, and CSS.
+            Willing to learn others as needed.
+          </p>
+          <a href="./contact.html" target="_blank" title="Link to contact page">
+            Contact me!
+          </a>
+        </div>
         <h1>Portfolio of My Work</h1>
         <div class="project-list" id="projectList">
           <!-- Projects will be dynamically inserted here -->
@@ -99,7 +112,6 @@
         role="dialog"
         aria-labelledby="ModalCenterTitle"
         aria-hidden="true"
-        
       >
         <div
           class="modal-dialog modal-dialog-centered bg-dark vw-100"
@@ -108,7 +120,7 @@
         >
           <div class="modal-content bg-dark" style="width: 1200px">
             <div class="modal-header bg-dark">
-              <h5 class="modal-title bg-dark" id="DetailsModalCenterTitle" ></h5>
+              <h5 class="modal-title bg-dark" id="DetailsModalCenterTitle"></h5>
               <button
                 type="button"
                 class="btn-close"
@@ -130,18 +142,6 @@
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="project-list-yourproject">
-        <h2>Your project?</h2>
-        <p>
-          I'd love to help you with your front-end and back-end needs! I work in
-          the following: React.js, JavaScript, Angular, HTML, and CSS.
-          Willing to learn others if needed.
-        </p>
-        <a href="./contact.html" target="_blank" title="Link to contact page">
-          Contact me!
-        </a>
       </div>
     </main>
     <footer id="FindMeIcons" class="page-footer">

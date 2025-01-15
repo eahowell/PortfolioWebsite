@@ -102,6 +102,8 @@ header {
   display: flex;
   width: 100%;
   padding: 10px 50px;
+  justify-content: space-between; /* This helps maintain spacing */
+  align-items: center; /* This vertically centers the items */
 }
 
 .page-header__item {
@@ -114,8 +116,7 @@ header {
 }
 
 #HeaderLogoImage {
-  height: 100px;
-  margin: auto 0;
+  height: 115px;
   padding: 0;
 }
 
@@ -132,35 +133,55 @@ header {
 .navigation-list {
   list-style: none;
   text-decoration: none;
-  padding: 25px;
+  /* padding: 25px; */
   margin: 0;
+}
+.navigation-list__item a {
+  color: var(--LightText);
 }
 
 .navigation-list .navigation-list__item {
   display: inline-block;
-  margin-left: 15px;
-  font-size: 20px;
+  font-size: 30px;
   color: var(--LightText);
   position: relative;
   z-index: 0;
   cursor: pointer;
-  margin: 0px 10px;
-  padding: 10px 10px;
+  /* margin: 0px 5px; */
+  /* padding: 10px 10px; */
 }
 
-.navigation-list .navigation-list__item .navigation-list__item--active {
+.navigation-list__item--active {
   text-decoration: none;
   background-color: var(--AccentPink);
-  padding: 10px 20px;
-  border-radius: 10pt;
+  border: 2pt solid var(--AccentPink);
+  border-radius: 5pt;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.navigation-list__item--inactive {
+  text-decoration: none;
+  border: 2pt solid var(--AccentPink);
+  border-radius: 5pt;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navigation-list__item--inactive:hover {
+  background-color: var(--AccentPink);
+  opacity: 0.8;
+  border: 2pt solid var(--AccentPink);
+  border-radius: 5pt;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* Navigation Brackets Animation */
-.brackets a:before,
+/* .brackets a:before,
 .brackets a:after {
   position: absolute;
   opacity: 0;
-  font-size: 35px;
+  font-size: 20px;
   top: 0px;
   transition: all 0.3s;
 }
@@ -181,7 +202,7 @@ header {
 .brackets a:hover:after {
   opacity: 1;
   transform: translateX(0px);
-}
+} */
 
 /* Main Content */
 main {
@@ -225,8 +246,9 @@ main {
 
 .bio__text {
   flex: 1 1 1000px;
-  font-size: 22px;
+  font-size: 25px;
   line-height: 1.5;
+  text-align: left;
 }
 
 #skills-chart-root {
@@ -252,10 +274,14 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  
 }
 
 .project-list__item .project-header {
   text-align: center;
+}
+.project-header-title {
+  margin-bottom: 25px;
 }
 
 .project-list__item .project-content {
@@ -686,8 +712,7 @@ svg* {
 
   .bio__text {
     display: block;
-    width: 300px;
-    margin: 5px;
+    margin: 15px;
   }
   .contact-form {
     margin: 1rem;
@@ -750,7 +775,7 @@ svg* {
 
   .bio__text {
     display: block;
-    margin: 5px;
+    margin: 25px;
   }
 
 }
