@@ -52,7 +52,7 @@
               href="./about.html"
               role="menuitem"
               title="About Me"
-              class=" navigation-list__item--active"
+              class="navigation-list__item--active"
               >About Me</a
             >
           </li>
@@ -109,9 +109,12 @@
             >Download my Resume Here!</a
           >
           <!-- Skills Section -->
-          <section id="skills" class="section">
+           
+          <section id="IconGrid" class="section">
+            <div id="icon-grid-root"></div>
             <div id="skills-chart-root"></div>
           </section>
+
           <br />
           <br />
         </div>
@@ -149,25 +152,25 @@
       <br />
     </footer>
     <!-- React Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
 
-    <!-- Skills Chart Component -->
-    <script type="text/babel" src="js/skills-chart.js"></script>
+<!-- Components -->
+<script type="text/babel" src="js/skills-chart.js"></script>
+<script type="text/babel" src="js/icon-grid.js"></script>
 
-    <!-- Initialize React Component -->
-    <script type="text/babel">
-      ReactDOM.render(
-        <SkillsChart />,
-        document.getElementById("skills-chart-root")
-      );
-    </script>
+<!-- Initialize React Components -->
+<script type="text/babel">
+  ReactDOM.render(
+    <SkillsChart />,
+    document.getElementById("skills-chart-root")
+  );
+  
+  ReactDOM.render(
+    <IconGrid />,
+    document.getElementById("icon-grid-root")
+  );
+</script>
   </body>
-  <!-- CREDITS -->
-  <!--Title of the Image" by [Artist's Name], Icon Finder. License: [License Type]. Available at: [URL]-->
-  <!--"Roboto Slab" Font by Christian Robertson, Google Fonts, License: APACHE LICENSE, VERSION 2.0. Available at: https://www.apache.org/licenses/LICENSE-2.0-->
-  <!--"Linkedin Icon" by Picons.me, Icon Finder. https://www.iconfinder.com/icons/104493/linkedin_icon-->
-  <!--"X Twitter Icons" by IconFinder, Icon Finder. https://www.iconfinder.com/icons/11244080/x_twitter_elon%20musk_twitter%20new%20logo_icon-->
-  <!--"Code repository, github, repository icon" by Pixel Bazaar, Icon Finder. License: CC BY 3.0 DEED. Available at: https://creativecommons.org/licenses/by/3.0/-->
 </html>

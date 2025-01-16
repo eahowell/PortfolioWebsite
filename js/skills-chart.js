@@ -3,18 +3,15 @@ const SkillsChart = () => {
       { name: 'Root Cause Analysis', subskills: ['Kepner-Tregoe', 'Cause-Mapping'], value: 95 },
       { name: 'Excel & VBA', value: 95 },
       { name: 'Power Platform', subskills: ['PowerApps', 'Power Automate', 'Power BI'], value: 85 },
-      { name: 'JavaScript & React', value: 70 },
+      { name: 'JavaScript & React', value: 60 },
       { name: 'HTML & CSS', value: 75 },
       { name: 'Git & GitHub', value: 80 },
-      { name: 'Databases', subskills: ['SQL', 'mongoDB', 'FirestoreDB'], value: 70 },
-      { name: 'UI/UX Frameworks', value: 65 },
-      { name: 'RESTful API', value: 65 },
-      { name: 'Testing', value: 65 },
+      { name: 'Databases', subskills: ['SQL', 'mongoDB', 'FirestoreDB'], value: 60 },
+      { name: 'UI/UX Frameworks', value: 60 },
+      { name: 'RESTful API', value: 55 },
       { name: 'SharePoint', value: 65 },
       { name: 'Data Visualization', value: 65 },
-      { name: 'Angular', value: 50 },
-      { name: 'AutoCAD/SolidWorks', value: 30 },
-      { name: 'Ladder Logic', value: 25 }
+      { name: 'Angular', value: 30 }
     ].sort((a, b) => b.value - a.value);
   
     const SkillBar = ({ skill }) => (
