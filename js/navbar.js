@@ -9,7 +9,7 @@ function setupNavigation() {
     <div class="container-fluid">
       ${currentPage !== 'index.html' ? `
         <a class="navbar-brand" href="./index.html">
-          <img src="img/FullLogo3.png" alt="Full Logo for Developer Elizabeth Howell" height="80">
+          <img src="img/ProfileImage-Square.jpg" alt="Full Logo for Developer Elizabeth Howell" height="80">
         </a>
       ` : `<a class="navbar-brand" href="./index.html">
           <img src="img/FullLogo3.png" alt="Full Logo for Developer Elizabeth Howell" height="80" style="visibility: hidden;">
