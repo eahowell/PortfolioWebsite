@@ -31,19 +31,7 @@ window.showProjectDetails = function (projectId) {
     <p class="text-start">${project.stack}</p>
     <h3 class="text-start"> Login</h3>
     <p class="text-start"> <strong> ${project.loginData}</p>
-    <br/>
-    <h3>Project Images</h3>
-    <div class="project-images">
-        ${project.images
-          .map(
-            (image) => `
-            <div class="project-image-container">
-                <img src="${image.src}" alt="${image.alt}" style="height: ${image.style.height};">
-            </div>
-        `
-          )
-          .join("")}
-    </div>
+    
     <br/>
 
     <h3>My role was to build:</h3>
@@ -66,6 +54,19 @@ window.showProjectDetails = function (projectId) {
           .map((tech) => `<li class="list-group-item text-start">${tech}</li>`)
           .join("")}
     </ul>
+    <br/>
+    <h3>Project Images</h3>
+    <div class="project-images">
+        ${project.images
+          .map(
+            (image) => `
+            <div class="project-image-container">
+                <img src="${image.src}" alt="${image.alt}" style="height: ${image.style.height};">
+            </div>
+        `
+          )
+          .join("")}
+    </div>
     
 `;
 
