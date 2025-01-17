@@ -9,15 +9,6 @@
   --AccentLightPink: #b35a7d;
   --LightText: white;
   --ShadowAccentBlue: #4a8d89;
-  --DarkBlue: #0a1464;
-  --MidBlue: #1d2983;
-  --LightBlue: #a9bbe4;
-  --Peach: #ef88aa;
-  --OpacquePeach: #ef88aa80;
-
-  --Sun-Full: #f76414;
-  --Sun-Mid: #fcffad;
-  --Sun-Lite: #edc655;
   --HeaderWeight: 700;
 }
 
@@ -577,12 +568,22 @@ svg* {
   width: auto;
   margin: 5px;
 }
+.mediumSVG {
+  height: 45px;
+  width: auto;
+  margin: -2px;
+}
 
 .gitSVG-contact,
 .linkedSVG-contact {
   height: 100px;
   width: auto;
   margin: 25px;
+}
+.mediumSVG-contact {
+  height: 150px;
+  width: auto;
+  margin: 0px;
 }
 
 .xSVG-contact {
@@ -789,18 +790,7 @@ svg* {
     --AccentLightPink: #af6583;
     --LightText: white;
     --ShadowAccentBlue: #4a8d89;
-    --DarkBlue: #0a1464;
-    --MidBlue: #1d2983;
-    --LightBlue: #a9bbe4;
-    --Peach: #ef88aa;
-    --OpacquePeach: #ef88aa80;
-
-    --Sun-Full: #f76414;
-    --Sun-Mid: #fcffad;
-    --Sun-Lite: #edc655;
-    --HeaderWeight: 700;
   }
-
   #skills-chart-root {
     color: var(--LightText);
   }
