@@ -1,4 +1,3 @@
-// Create a new file: js/icon-grid.js
 const IconGrid = () => {
   const icons = [
     { id: 1, name: "HTML", path: "img/9055395_bxs_file_html_icon.svg" },
@@ -14,72 +13,34 @@ const IconGrid = () => {
     { id: 11, name: "SharePoint", path: "img/5761482_coding_development_logo_sharepoint_spd_icon.svg" },
     { id: 12, name: "GitHub", path: "img/317712_code repository_github_repository_resource_icon (1).svg" },
     { id: 13, name: "Kepner-Tregoe", path: "img/KT.png" },
-    // { id: 14, name: "Think Reliability", path: "img/thinkRel.webp" },
     { id: 15, name: "Microsoft Power Platform", path: "img/power-platform2.png" }
   ];
 
-  const containerStyle = {
-    padding: '2rem'
-  };
-
-  const gridStyle = {
-    display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(120px, 1fr))',
-    gap: '2rem',
-    maxWidth: '1100px',
-    margin: '0 auto'
-  };
-
-  const iconContainerStyle = {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    textAlign: 'center'
-  };
-
-  const iconBoxStyle = {
-    backgroundColor: 'var(--AccentBlue)',
-    padding: '1rem',
-    borderRadius: '0.5rem',
-    width: '6rem',
-    height: '6rem',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    transition: 'transform 0.3s ease'
-  };
-
-  const iconImageStyle = {
-    width: '4rem',
-    height: '4rem'
-  };
-
-  const iconLabelStyle = {
-    marginTop: '0.5rem',
-    color: 'var(--LightText)',
-    fontSize: '1.125rem'
-  };
-
   return (
-    <div style={containerStyle}>
-      <h2 style={{ color: 'var(--LightText)', fontSize: '2rem', fontWeight: '700', marginBottom: '2rem', textAlign: 'center' }}>
-        Technologies & Methods
-      </h2>
-      <div style={gridStyle}>
+    <div className="container py-4">
+      <h2 className="text-center text-light mb-4 fw-bold">Technologies & Methods</h2>
+      <div className="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-3">
         {icons.map((icon) => (
-          <div key={icon.id} style={iconContainerStyle}>
+          <div key={icon.id} className="col text-center">
             <div 
-              style={iconBoxStyle}
+              className="icon-box bg-info p-2 rounded mx-auto"
+              style={{ 
+                width: '4.5rem', 
+                height: '4.5rem',
+                transition: 'transform 0.3s ease'
+                // cursor: 'pointer'
+              }}
               onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.1)'}
               onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
             >
               <img
                 src={icon.path}
                 alt={`${icon.name} icon`}
-                style={iconImageStyle}
+                className="img-fluid p-1"
+                style={{ maxHeight: '100%', maxWidth: '100%' , height: '4rem', width: 'auto' }}
               />
             </div>
-            <span style={iconLabelStyle}>{icon.name}</span>
+            <span className="d-block mt-2 text-light small">{icon.name}</span>
           </div>
         ))}
       </div>
