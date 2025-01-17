@@ -93,12 +93,6 @@ header {
   display: inline-block;
   width: 100%;
   padding: 10px ;
-  align-items: center; 
-}
-
-#HeaderLogoImage {
-  height: 115px;
-  padding: 0;
 }
 
 /* Navigation Styles */
