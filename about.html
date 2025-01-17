@@ -62,10 +62,11 @@
             >Download my Resume Here!</a
           >
           <!-- Skills Section -->
-           
           <section id="IconGrid" class="section">
-            <div id="icon-grid-root"></div>
-            <div id="skills-chart-root"></div>
+            <div class="skills-container">
+              <div id="icon-grid-root"></div>
+              <!-- <div id="skills-chart-root"></div> -->
+            </div>
           </section>
 
           <br />
@@ -120,15 +121,15 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
 
 <!-- Components -->
-<script type="text/babel" src="js/skills-chart.js"></script>
+<!-- <script type="text/babel" src="js/skills-chart.js"></script> -->
 <script type="text/babel" src="js/icon-grid.js"></script>
 
 <!-- Initialize React Components -->
 <script type="text/babel">
-  ReactDOM.render(
-    <SkillsChart />,
-    document.getElementById("skills-chart-root")
-  );
+  // ReactDOM.render(
+  //   <SkillsChart />,
+  //   document.getElementById("skills-chart-root")
+  // );
   
   ReactDOM.render(
     <IconGrid />,

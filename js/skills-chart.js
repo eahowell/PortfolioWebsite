@@ -19,7 +19,7 @@ const SkillsChart = () => {
         <div style={{ 
           display: 'flex', 
           justifyContent: 'space-between', 
-          alignItems: 'flex-start', // Changed from center to flex-start
+          alignItems: 'flex-start', 
           marginBottom: '0.25rem' 
         }}>
           <div style={{

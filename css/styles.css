@@ -92,7 +92,7 @@ header {
 .page-header {
   display: inline-block;
   width: 100%;
-  padding: 10px ;
+  padding: 10px;
 }
 
 /* Navigation Styles */
@@ -158,22 +158,34 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1200px;
+  width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
+  padding: 1rem;
 }
 
 .bio__text {
-  flex: 1 1 1000px;
+  flex: 1 1 100%;
   font-size: 25px;
   line-height: 1.5;
   text-align: left;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.section {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  padding: 1rem;
 }
 
 #skills-chart-root {
   width: 100%;
-  max-width: 600px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 1rem;
+  overflow-x: hidden;
 }
 
 /* Project List */
@@ -192,7 +204,6 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  
 }
 
 .project-list__item .project-header {
@@ -295,7 +306,7 @@ main {
 }
 .project-image-container img:hover {
   transform: scale(1.75);
-  transition: transform 0.3s ease .5s;
+  transition: transform 0.3s ease 0.5s;
   border: 10px solid var(--LightText);
   border-radius: 5px;
   z-index: 100;
@@ -519,55 +530,58 @@ svg* {
   margin: 25px;
 }
 
-
-
 #skills-chart-root {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
 }
+
+/* Icon Grid Bootstrap Overrides */
+.icon-box {
+  background-color: var(--AccentBlue) !important;
+}
+
+.icon-box:hover {
+  background-color: var(--AccentPink) !important;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-   
-/* Responsive media query */
-@media (max-width: 768px) {
-  .skills-container {
-    grid-template-columns: 1fr;
-  }
-
-  .project-images {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .project-image-container {
-    width: 100%;
-  }
-  .project-list__item .project-content {
-    flex-direction: column;
-  }
-  
-  .project-list__item .project-preview,
-  .project-list__item .project-text {
-    width: 100%;
-  }
-}
 
 /* For smaller displays */
 @media all and (max-width: 550px) {
+  .page-header {
+    padding: 0px;
+    margin: 0px;
+  }
   .project-list {
     grid-template-columns: 1fr;
   }
+  .project-list__item .project-preview {
+    margin: auto;
+    height: 15rem;
+    width: auto;
+  }
+  .project-header-title {
+    margin-bottom: 5px;
+  }
 
+  .project-list__item .project-content {
+    gap: 1rem;
+    flex-direction: column;
+  }
+  .project-list__item .project-text {
+    width: 100%;
+  }
+  .project-list-yourproject {
+    font-size: 1rem;
+    font-weight: 350;
+  }
   .modal-dialog {
     margin: 0.5rem;
     max-width: calc(100% - 1rem);
-  }
-
-  .modal-content {
-    width: 100%;
   }
 
   .modal-body {
@@ -593,12 +607,6 @@ svg* {
     flex-wrap: wrap;
   }
 
-  .list-group-item {
-    flex: 0 0 50%;
-    font-size: 1rem;
-  }
-  
-
   #HeaderLogoImage {
     height: 80%;
   }
@@ -622,10 +630,25 @@ svg* {
   .profile__text {
     display: block;
   }
-
+  .page-header {
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+  }
+  .bio {
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+  }
   .bio__text {
     display: block;
-    margin: 15px;
+    margin: 1px;
+    font-size: 20px;
+    padding: 0.4rem;
+  }
+
+  .bio__text.bio_item {
+    margin-top: 1px;
   }
   .contact-form {
     margin: 1rem;
@@ -639,9 +662,41 @@ svg* {
     grid-template-columns: 1fr 1fr;
   }
 
+  .project-list__item .project-preview,
+  .project-list__item .project-text {
+    width: 100%;
+  }
+  .project-list__item .project-preview {
+    margin: auto;
+    height: 15rem;
+    width: auto;
+  }
+  .page-header {
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+  }
+  .bio {
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+  }
   #HeaderLogoImage {
     height: 80%;
   }
+  .profile {
+    margin: 0 0 0 3rem;
+  }
+
+  .profile__portrait {
+    width: 50%;
+    height: auto;
+  }
+
+  .profile__text {
+    display: block;
+  }
+  
 }
 
 @media all and (max-width: 1200px) {
@@ -674,7 +729,6 @@ svg* {
     display: block;
     margin: 25px;
   }
-
 }
 
 @media (prefers-color-scheme: dark) {
