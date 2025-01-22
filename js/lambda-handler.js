@@ -12,7 +12,7 @@ export const handler = async (event) => {
     });
 
     const headers = {
-        'Access-Control-Allow-Origin': 'https://eahowell.github.io',
+        'Access-Control-Allow-Origin': 'https://eahowell.github.io, http://ehowell-dev.me/, https://ehowell-dev.me/',
         'Access-Control-Allow-Headers': 'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,Accept',
         'Access-Control-Allow-Methods': 'OPTIONS,POST',
         'Access-Control-Allow-Credentials': true,
