@@ -247,7 +247,7 @@
         }
       ],
       "description": "This is a mobile chat application built with React Native. It provides users with a chat interface and options to share images and their location.",
-      "loginData": ["No login required, however the repository must be cloned, installed, and then run on an emulator or device.See the README for instructions."],
+      "loginData": ["No login required, however the repository must be cloned, installed, and then run on an emulator or device. See the README for instructions."],
       "stack": "This app uses React, Node, JavaScript, React Native, Expo, Google Firestore, Google Firebase, and Gifted Chat",
       "role": [
         "Build a React Native App using JavaScript",
