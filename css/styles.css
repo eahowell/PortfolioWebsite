@@ -546,6 +546,24 @@ svg* {
   background-color: var(--AccentPink) !important;
 }
 
+/* Technology Badges */
+.tech-badges {
+  background-color: var(--AccentBlue);
+  color: black;
+  padding: 0.5rem 0.6rem;
+  border-radius: 0.5rem;
+  border: white 1px solid;
+  margin: 0.25rem;
+  display: inline-block;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.tech-badges:hover {
+  background-color: var(--AccentPink);
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */

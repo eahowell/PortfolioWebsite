@@ -49,11 +49,14 @@ window.showProjectDetails = function (projectId) {
     </ul>
     <br/>
     <h3>Technologies Used</h3>
-    <ul class="list-group list-group-horizontal flex-wrap">
+    <div class="technologies-badges">
         ${project.technologies
-          .map((tech) => `<li class="list-group-item text-start">${tech}</li>`)
+          .map(
+            (tech) =>
+              `<span class="badge rounded-pill me-1 tech-badges">${tech}</span>`
+          )
           .join("")}
-    </ul>
+    </div>
     <br/>
     <h3>Project Images</h3>
     <div class="project-images">
