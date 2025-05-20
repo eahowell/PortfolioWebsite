@@ -19,7 +19,10 @@
       rel="stylesheet"
     />
     <!-- Import Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
     <!-- CSS Style Sheet -->
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
@@ -61,6 +64,63 @@
           <a href="files/Resume-Howell.pdf" class="button1" download
             >Download my Resume Here!</a
           >
+
+          <section id="Employment" class="section">
+            <h2 class="text-center text-light mb-4 fw-bold">Where I've Worked</h2>
+            <div
+              class="d-flex justify-content-center align-items-center flex-wrap company-logos"
+            >
+              <a href="https://www.tesla.com/" target="_blank" rel="noopener noreferrer" title="Tesla" aria-label="Tesla">
+                <img
+                  src="img/tesla_motors_logo.jfif"
+                  alt="Tesla Company Logo"
+                  class="img-fluid rounded-circle"
+                  style="max-height: 65px; margin: 0 0.5rem"
+                />
+              </a>
+              <a href="https://www.gp.com/" target="_blank" rel="noopener noreferrer" title="Georgia Pacific LLC" aria-label="Georgia Pacific LLC">
+                <img
+                  src="img/georgia_pacific_llc_logo.jfif"
+                  alt="Georgia Pacific LLC Logo"
+                  class="img-fluid rounded-circle"
+                  style="max-height: 65px; margin: 0 0.5rem"
+                />
+              </a>
+              <a href="https://www.eaton.com/" target="_blank" rel="noopener noreferrer" title="Eaton" aria-label="Eaton">
+                <img
+                  src="img/eaton_logo.jfif"
+                  alt="Eaton Logo"
+                  class="img-fluid rounded-circle"
+                  style="max-height: 65px; margin: 0 0.5rem"
+                />
+              </a>
+              <a href="https://www.kraftheinzcompany.com/" target="_blank" rel="noopener noreferrer" title="The Kraft Heinz Company" aria-label="The Kraft Heinz Company">
+                <img
+                  src="img/the_kraft_heinz_company_logo.jfif"
+                  alt="The Kraft Heinz Company Logo"
+                  class="img-fluid rounded-circle"
+                  style="max-height: 65px; margin: 0 0.5rem"
+                />
+              </a>
+              <a href="https://www.ge.com/" target="_blank" rel="noopener noreferrer" title="General Electric" aria-label="General Electric">
+                <img
+                  src="img/ge_logo.jfif"
+                  alt="GE Logo"
+                  class="img-fluid rounded-circle"
+                  style="max-height: 65px; margin: 0 0.5rem"
+                />
+              </a>
+              <a href="https://www.ufl.edu/" target="_blank" rel="noopener noreferrer" title="University of Florida" aria-label="University of Florida">
+                <img
+                  src="img/uflorida_logo.jfif"
+                  alt="University of Florida Logo"
+                  class="img-fluid rounded-circle"
+                  style="max-height: 65px; margin: 0 0.5rem; border: #FA4616 2px solid"
+                />
+              </a>
+            </div>
+          </section>
+
           <!-- Skills Section -->
           <section id="IconGrid" class="section">
             <div class="skills-container">
@@ -116,25 +176,22 @@
     <!-- Navbar JS -->
     <script src="js/navbar.js"></script>
     <!-- React Scripts -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
 
-<!-- Components -->
-<!-- <script type="text/babel" src="js/skills-chart.js"></script> -->
-<script type="text/babel" src="js/icon-grid.js"></script>
+    <!-- Components -->
+    <!-- <script type="text/babel" src="js/skills-chart.js"></script> -->
+    <script type="text/babel" src="js/icon-grid.js"></script>
 
-<!-- Initialize React Components -->
-<script type="text/babel">
-  // ReactDOM.render(
-  //   <SkillsChart />,
-  //   document.getElementById("skills-chart-root")
-  // );
-  
-  ReactDOM.render(
-    <IconGrid />,
-    document.getElementById("icon-grid-root")
-  );
-</script>
+    <!-- Initialize React Components -->
+    <script type="text/babel">
+      // ReactDOM.render(
+      //   <SkillsChart />,
+      //   document.getElementById("skills-chart-root")
+      // );
+
+      ReactDOM.render(<IconGrid />, document.getElementById("icon-grid-root"));
+    </script>
   </body>
 </html>
