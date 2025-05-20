@@ -546,6 +546,10 @@ svg* {
   background-color: var(--AccentPink) !important;
 }
 
+.icon-name {
+  font-size: 1rem;
+}
+
 /* Technology Badges */
 .tech-badges {
   background-color: var(--AccentBlue);
@@ -563,6 +567,8 @@ svg* {
 .tech-badges:hover {
   background-color: var(--AccentPink);
 }
+
+
 
 /* ==========================================================================
    Media Queries

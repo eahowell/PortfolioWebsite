@@ -13,13 +13,13 @@ const IconGrid = () => {
     { id: 11, name: "SharePoint", path: "img/5761482_coding_development_logo_sharepoint_spd_icon.svg" },
     { id: 12, name: "GitHub", path: "img/317712_code repository_github_repository_resource_icon (1).svg" },
     { id: 13, name: "Kepner-Tregoe", path: "img/KT.png" },
-    { id: 15, name: "Microsoft Power Platform", path: "img/power-platform2.png" }
+    { id: 15, name: "Power Platform", path: "img/PowerPlatform_scalable.svg" }
   ];
 
   return (
     <div className="container py-4">
       <h2 className="text-center text-light mb-4 fw-bold">Technologies & Methods</h2>
-      <div className="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-3">
+      <div className="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-3">
         {icons.map((icon) => (
           <div key={icon.id} className="col text-center">
             <div 
@@ -40,7 +40,7 @@ const IconGrid = () => {
                 style={{ maxHeight: '100%', maxWidth: '100%' , height: '4rem', width: 'auto' }}
               />
             </div>
-            <span className="d-block mt-2 text-light small">{icon.name}</span>
+            <span className="d-block mt-2 text-light small icon-name">{icon.name}</span>
           </div>
         ))}
       </div>
