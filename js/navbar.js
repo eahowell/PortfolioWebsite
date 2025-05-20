@@ -18,7 +18,9 @@ function setupNavigation() {
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      
         <ul class="navbar-nav">
+        
           <li class="nav-item">
             <a class="nav-link ${currentPage === 'index.html' ? 'active' : ''}" href="./index.html">Home</a>
           </li>
@@ -31,6 +33,8 @@ function setupNavigation() {
           <li class="nav-item">
             <a class="nav-link ${currentPage === 'contact.html' ? 'active' : ''}" href="./contact.html">Contact</a>
           </li>
+          <a href="files/Resume-Howell.pdf" class="button1" download target="_blank" title="Download my Resume!" style="text-decoration: none; color: white; font-size: 1.125rem; font-weight: 600; padding: 0.5rem 1rem; border-radius: 5px;">
+            Download my Resume!</a>
         </ul>
       </div>
     </div>
