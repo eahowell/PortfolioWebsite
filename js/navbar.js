@@ -33,8 +33,8 @@ function setupNavigation() {
           <li class="nav-item">
             <a class="nav-link ${currentPage === 'contact.html' ? 'active' : ''}" href="./contact.html">Contact</a>
           </li>
-          <a href="files/Resume-Howell.pdf" class="button1" target="_blank" title="View my Resume!" style="text-decoration: none; color: white; font-size: 1.125rem; font-weight: 600; padding: 0.5rem 1rem; border-radius: 5px;">
-            View my Resume!</a>
+          <a href="files/Resume-Howell.pdf" class="button1" target="_blank" title="View my Resume!" style="text-decoration: none; color: white;  font-weight: 300; padding: 0.5rem 1rem; border-radius: 5px;">
+            View my Resume</a>
         </ul>
       </div>
     </div>
