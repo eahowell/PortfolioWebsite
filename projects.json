@@ -12,6 +12,11 @@
       },
       "links": [
         {
+          "text": "Demo",
+          "url": "https://www.loom.com/share/7889e085290949048d8cbc50869483cb?sid=0f539126-e3f8-4a19-8161-a62412b9bffc",
+          "title": "Demo video of the app"
+        },
+        {
           "text": "Live App",
           "url": "https://eahowell.github.io/pokedex-js-app/",
           "title": "Link to the live app"
