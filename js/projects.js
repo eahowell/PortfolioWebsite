@@ -31,8 +31,9 @@ window.showProjectDetails = function (projectId) {
     <p class="text-start">${project.stack}</p>
     <h3 class="text-start"> Login</h3>
     <p class="text-start"> <strong> ${project.loginData}</p>
-    
-    <br/>
+    ${project.notes !== undefined ? 
+    `<p  class="text-start"> Note: ${project.notes}</p>` : ``}
+   
 
     <h3>My role was to build:</h3>
     <ul class="list-group">
