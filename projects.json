@@ -78,12 +78,17 @@
           "title": "Link to the live app"
         },
         {
-          "text": "Frontend Repository",
+          "text": "Case Study",
+          "url": "files/myFlixCaseStudy.pdf",
+          "title": "Link to the case study"
+        },
+        {
+          "text": "Frontend Repo",
           "url": "https://github.com/eahowell/myFlix-client",
           "title": "Link to project github repository for the frontend code"
         },
         {
-          "text": "Backend Repository",
+          "text": "Backend Repo",
           "url": "https://github.com/eahowell/movie_api",
           "title": "Link to project github repository for the backend code"
         }
