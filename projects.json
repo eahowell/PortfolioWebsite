@@ -69,7 +69,7 @@
     },
     {
       "id": 2,
-      "title": "Project 2: SPA Full Stack Web App (React)",
+      "title": "Project 2: SPA Full-Stack Web App (React)",
       "logoImage": {
         "src": "img/myFlixLogo-Light.png",
         "alt": "Full Logo for myFlix app",
@@ -78,6 +78,11 @@
         }
       },
       "links": [
+        {
+          "text": "Demo",
+          "url": "https://www.loom.com/share/29a46cf2d8d64a64916970a9ffa01fd2?sid=ccd86a9f-8e26-4e9b-ab49-2ccfa9db7037",
+          "title": "Demo video of the app"
+        },
         {
           "text": "Live App",
           "url": "https://eahowell-myflix.netlify.app/",
@@ -89,12 +94,12 @@
           "title": "Link to the case study"
         },
         {
-          "text": "Frontend Repo",
+          "text": "Frontend",
           "url": "https://github.com/eahowell/myFlix-client",
           "title": "Link to project github repository for the frontend code"
         },
         {
-          "text": "Backend Repo",
+          "text": "Backend",
           "url": "https://github.com/eahowell/movie_api",
           "title": "Link to project github repository for the backend code"
         }
