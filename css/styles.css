@@ -353,7 +353,7 @@ input.button:focus {
   background-color: var(--ShadowAccentBlue);
   outline: 2px solid var(--AccentPink);
   opacity: 0.9;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 button:active,
