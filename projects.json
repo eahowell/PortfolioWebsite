@@ -259,6 +259,11 @@
       },
       "links": [
         {
+          "text": "Demo",
+          "url": "img/Chatly-Actions.gif",
+          "title": "Demo video of the app"
+        },
+        {
           "text": "Repository",
           "url": "https://github.com/eahowell/chat-app",
           "title": "Link to project github repository"
