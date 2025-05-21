@@ -158,7 +158,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1200px;
+  width: 1300px;
   max-width: 100%;
   margin: 0 auto;
   padding: 1rem;
@@ -171,6 +171,22 @@ main {
   text-align: left;
   max-width: 100%;
   overflow-x: hidden;
+}
+
+/* Profile Picture */
+.bio__img {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.bio__img-container {
+  margin: auto 35px;
 }
 
 .section {
@@ -209,6 +225,7 @@ main {
 .project-list__item .project-header {
   text-align: center;
 }
+
 .project-header-title {
   margin-bottom: 25px;
 }
@@ -250,6 +267,7 @@ main {
 .project-list-yourproject a {
   color: white;
 }
+
 /* Styles for the project modals */
 .modal-dialog {
   max-width: 800px;
@@ -273,6 +291,7 @@ main {
   margin-left: 10px;
   margin-top: 10px;
 }
+
 .list-group-item {
   font-weight: 400;
   background-color: var(--AccentBlue);
@@ -304,6 +323,7 @@ main {
   transition: transform 0s ease;
   z-index: 1;
 }
+
 .project-image-container img:hover {
   transform: scale(1.75);
   transition: transform 0.3s ease 0.5s;
@@ -506,6 +526,7 @@ svg* {
   width: auto;
   margin: 5px;
 }
+
 .mediumSVG {
   height: 45px;
   width: auto;
@@ -518,6 +539,7 @@ svg* {
   width: auto;
   margin: 25px;
 }
+
 .mediumSVG-contact {
   height: 150px;
   width: auto;
@@ -535,6 +557,11 @@ svg* {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
+}
+
+.icon-section {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 /* Icon Grid Bootstrap Overrides */
@@ -580,14 +607,17 @@ svg* {
     padding: 0px;
     margin: 0px;
   }
+
   .project-list {
     grid-template-columns: 1fr;
   }
+
   .project-list__item .project-preview {
     margin: auto;
     height: 15rem;
     width: auto;
   }
+
   .project-header-title {
     margin-bottom: 5px;
   }
@@ -596,13 +626,16 @@ svg* {
     gap: 1rem;
     flex-direction: column;
   }
+
   .project-list__item .project-text {
     width: 100%;
   }
+
   .project-list-yourproject {
     font-size: 1rem;
     font-weight: 350;
   }
+
   .modal-dialog {
     margin: 0.5rem;
     max-width: calc(100% - 1rem);
@@ -654,16 +687,19 @@ svg* {
   .profile__text {
     display: block;
   }
+
   .page-header {
     padding: 0px;
     margin: 0px;
     height: auto;
   }
+
   .bio {
     padding: 0px;
     margin: 0px;
     height: auto;
   }
+
   .bio__text {
     display: block;
     margin: 1px;
@@ -674,6 +710,7 @@ svg* {
   .bio__text.bio_item {
     margin-top: 1px;
   }
+
   .contact-form {
     margin: 1rem;
     padding: 1rem;
@@ -690,24 +727,29 @@ svg* {
   .project-list__item .project-text {
     width: 100%;
   }
+
   .project-list__item .project-preview {
     margin: auto;
     height: 15rem;
     width: auto;
   }
+
   .page-header {
     padding: 0px;
     margin: 0px;
     height: auto;
   }
+
   .bio {
     padding: 0px;
     margin: 0px;
     height: auto;
   }
+
   #HeaderLogoImage {
     height: 80%;
   }
+
   .profile {
     margin: 0 0 0 3rem;
   }
@@ -720,7 +762,7 @@ svg* {
   .profile__text {
     display: block;
   }
-  
+
 }
 
 @media all and (max-width: 1200px) {
@@ -765,6 +807,7 @@ svg* {
     --LightText: white;
     --ShadowAccentBlue: #4a8d89;
   }
+
   #skills-chart-root {
     color: var(--LightText);
   }
