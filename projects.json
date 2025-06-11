@@ -2,74 +2,7 @@
   "projects": [
     {
       "id": 1,
-      "title": "Project 1: Dynamic Webpage",
-      "logoImage": {
-        "src": "img/PokedexLogo.png",
-        "alt": "Full Logo for Pokedex",
-        "style": {
-          "height": "60px"
-        }
-      },
-      "links": [
-        {
-          "text": "Demo",
-          "url": "https://www.loom.com/share/7889e085290949048d8cbc50869483cb?sid=0f539126-e3f8-4a19-8161-a62412b9bffc",
-          "title": "Demo video of the app"
-        },
-        {
-          "text": "Live App",
-          "url": "https://eahowell.github.io/pokedex-js-app/",
-          "title": "Link to the live app"
-        },
-        {
-          "text": "Repository",
-          "url": "https://github.com/eahowell/pokedex-js-app",
-          "title": "Link to project github repository"
-        }
-      ],
-      "description": "This is a a small web application with HTML, CSS, and JavaScript that loads data from an external API and enables the viewing of data points in detail.",
-      "notes": "This project was part of my Full-Stack Web Developer Program with CareerFoundry.",
-      "stack": "This app uses HTML, CSS, and JavaScript",
-      "loginData": ["No login required"],
-      "role": [
-        "Build the frontend interface displaying a list of Pokémon, when clicked upon the details of the selected Pokémon will appear in a popup.",
-        "Reading in the data from the API, parsing the info, and displaying the details of each Pokémon."
-      ],
-      "learnings": [
-        "Load data from an external source (API)",
-        "Creating and using Modals",
-        "Design a dynamic site",
-        "Using Bootstrap for styling"
-      ],
-      "technologies": [
-        "JavaScript",
-        "jQuery",
-        "Polyfill",
-        "Bootstrap",
-        "CSS",
-        "HTML",
-        "Prettier"
-      ],
-      "images": [
-        {
-          "src": "img/PokedexScreenshot1.png",
-          "alt": "Pokedex Main Page showing list of clickable Pokemon",
-          "style": {
-            "height": "300px"
-          }
-        },
-        {
-          "src": "img/PokedexScreenshot2.png",
-          "alt": "Detailed view of selected Pokemon",
-          "style": {
-            "height": "300px"
-          }
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Project 2: SPA Full-Stack Web App (React)",
+      "title": " SPA Full-Stack Web App (React)",
       "logoImage": {
         "src": "img/myFlixLogo-Light.png",
         "alt": "Full Logo for myFlix app",
@@ -106,7 +39,7 @@
       ],
       "description": "This is a full stack web application using React for the client side. The movie application provides a list of movies with details including the description, directors, and actors. A user can create a profile and add movies to their favorites and a to watch list.",
       "notes": "This project was part of my Full-Stack Web Developer Program with CareerFoundry.",
-      "loginData": [ "Username : testportfolio | Password : 12345678" ],
+      "loginData": ["Username : testportfolio | Password : 12345678"],
       "stack": "This app uses the MERN (MongoDB, Express, React, and Node. js) stack",
       "role": [
         "Frontend interface to display the movies (and movie details) and user profile setup and managements",
@@ -172,8 +105,194 @@
       ]
     },
     {
+      "id": 2,
+      "title": "SPA Full-Stack Web App (Angular)",
+      "logoImage": {
+        "src": "img/myFlixLogoAngular.png",
+        "alt": "Full Logo for myFlix app",
+        "style": {
+          "height": "60px"
+        }
+      },
+      "links": [
+        {
+          "text": "Live App",
+          "url": "https://eahowell.github.io/myFlix-Angular-client/",
+          "title": "Link to the live app"
+        },
+        {
+          "text": "Frontend Repository",
+          "url": "https://github.com/eahowell/myFlix-Angular-client",
+          "title": "Link to project github repository for the frontend code"
+        },
+        {
+          "text": "Backend Repository",
+          "url": "https://github.com/eahowell/movie_api",
+          "title": "Link to project github repository for the backend code"
+        }
+      ],
+      "description": "This is a full stack web application using Angular for the client side. This uses the backend created in Project 2. The movie application provides a list of movies with details including the description, directors, and actors. A user can create a profile and add movies to their favorites and a to watch list.",
+      "notes": "This project was part of my Full-Stack Web Developer Program with CareerFoundry.",
+      "loginData": ["Username : testportfolio | Password : 12345678"],
+      "stack": "This app uses the MEAN (MongoDB, Express, Angular, and Node. js) stack",
+      "role": [
+        "Frontend interface using Angular to display the movies (and movie details) and user profile setup and managements",
+        "Using the previously made backend server with the database and the API to access the database"
+      ],
+      "learnings": [
+        "Create documentation with JSDoc and TypeDoc",
+        "Design a Single Page Application using Angular"
+      ],
+      "technologies": [
+        "Angular",
+        "TypeScript",
+        "TypeDoc",
+        "JSDoc",
+        "Material Design",
+        "RXJS",
+        "SCSS",
+        "HTML",
+        "Express",
+        "JavaScript - Backend",
+        "Mongoose - Backend",
+        "Redux - Backend",
+        "Parcel - Backend",
+        "JSON Web Token - Backend",
+        "MongoDB - Backend",
+        "Heroku - Backend"
+      ],
+      "images": [
+        {
+          "src": "img/MEANmyFlixScreenshot0.png",
+          "alt": "Screenshot of myFlix Welcome Page",
+          "style": {
+            "height": "300px"
+          }
+        },
+        {
+          "src": "img/MEANmyFlixScreenshot1.png",
+          "alt": "Screenshot of myFlix Create Account Page",
+          "style": {
+            "height": "300px"
+          }
+        },
+        {
+          "src": "img/MEANmyFlixScreenshot2.png",
+          "alt": "Screenshot of myFlix Signin Page",
+          "style": {
+            "height": "300px"
+          }
+        },
+        {
+          "src": "img/MEANmyFlixScreenshot5.png",
+          "alt": "Screenshot of myFlix User Profile Page",
+          "style": {
+            "height": "300px"
+          }
+        },
+        {
+          "src": "img/MEANmyFlixScreenshot3.png",
+          "alt": "Screenshot of myFlix Movies List Page",
+          "style": {
+            "height": "300px"
+          }
+        },
+        {
+          "src": "img/MEANmyFlixScreenshot4.png",
+          "alt": "Screenshot of myFlix Movie Details Page",
+          "style": {
+            "height": "300px"
+          }
+        }
+      ]
+    },
+
+    {
       "id": 3,
-      "title": "Project 3: PWA Web App",
+      "title": "React Native App",
+      "logoImage": {
+        "src": "img/ChatlyLogo.png",
+        "alt": "Full Logo for Chatly app",
+        "style": {
+          "height": "60px"
+        }
+      },
+      "links": [
+        {
+          "text": "Demo",
+          "url": "img/Chatly-Actions.gif",
+          "title": "Demo video of the app"
+        },
+        {
+          "text": "Repository",
+          "url": "https://github.com/eahowell/chat-app",
+          "title": "Link to project github repository"
+        }
+      ],
+      "description": "This is a mobile chat application built with React Native. It provides users with a chat interface and options to share images and their location.",
+      "notes": "This project was part of my Full-Stack Web Developer Program with CareerFoundry.",
+      "loginData": [
+        "No login required, however the repository must be cloned, installed, and then run on an emulator or device. See the README for instructions."
+      ],
+      "stack": "This app uses React, Node, JavaScript, React Native, Expo, Google Firestore, Google Firebase, and Gifted Chat",
+      "role": [
+        "Build a React Native App using JavaScript",
+        "Build the chat UI with Accessibly",
+        "Authenticate users using Firebase",
+        "Store conversations in Firestore Database"
+      ],
+      "learnings": [
+        "Create a native app",
+        "Use device's location, microphone, and camera",
+        "Use an emulator for mobile testing",
+        "Online and Offline Data Storage"
+      ],
+      "technologies": [
+        "Node",
+        "JavaScript",
+        "React",
+        "React Native Gifted Chat",
+        "Expo Go",
+        "Android Studio",
+        "Google Firestore Database",
+        "Firebase Cloud Storage",
+        "Prettier",
+        "ESLint"
+      ],
+      "images": [
+        {
+          "src": "img/ChatlyScreenshot1.png",
+          "alt": "Screenshot of Chatly's Main Page showing Name input and background color selection",
+          "style": {
+            "height": "300px"
+          }
+        },
+        {
+          "src": "img/ChatlyScreenshot2.png",
+          "alt": "Screenshot of Chatly's Chat Screen",
+          "style": {
+            "height": "300px"
+          }
+        },
+        {
+          "src": "img/ChatlyScreenshot3.png",
+          "alt": "Screenshot of Chatly's  Action Options in the Chat Screen",
+          "style": {
+            "height": "300px"
+          }
+        },
+        {
+          "src": "img/Chatly-Actions.gif",
+          "alt": "Chatly Action Demonstration",
+          "style": {
+            "height": "300px"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "PWA Web App",
       "logoImage": {
         "src": "img/CliqueUpLogo.png",
         "alt": "Full Logo for CliqueUp app",
@@ -248,11 +367,11 @@
       ]
     },
     {
-      "id": 4,
-      "title": "Project 4: React Native App",
+      "id": 5,
+      "title": "Dynamic Webpage",
       "logoImage": {
-        "src": "img/ChatlyLogo.png",
-        "alt": "Full Logo for Chatly app",
+        "src": "img/PokedexLogo.png",
+        "alt": "Full Logo for Pokedex",
         "style": {
           "height": "60px"
         }
@@ -260,170 +379,54 @@
       "links": [
         {
           "text": "Demo",
-          "url": "img/Chatly-Actions.gif",
+          "url": "https://www.loom.com/share/7889e085290949048d8cbc50869483cb?sid=0f539126-e3f8-4a19-8161-a62412b9bffc",
           "title": "Demo video of the app"
         },
         {
-          "text": "Repository",
-          "url": "https://github.com/eahowell/chat-app",
-          "title": "Link to project github repository"
-        }
-      ],
-      "description": "This is a mobile chat application built with React Native. It provides users with a chat interface and options to share images and their location.",
-      "notes": "This project was part of my Full-Stack Web Developer Program with CareerFoundry.",
-      "loginData": ["No login required, however the repository must be cloned, installed, and then run on an emulator or device. See the README for instructions."],
-      "stack": "This app uses React, Node, JavaScript, React Native, Expo, Google Firestore, Google Firebase, and Gifted Chat",
-      "role": [
-        "Build a React Native App using JavaScript",
-        "Build the chat UI with Accessibly",
-        "Authenticate users using Firebase",
-        "Store conversations in Firestore Database"
-      ],
-      "learnings": [
-        "Create a native app",
-        "Use device's location, microphone, and camera",
-        "Use an emulator for mobile testing",
-        "Online and Offline Data Storage"
-      ],
-      "technologies": [
-        "Node",
-        "JavaScript",
-        "React",
-        "React Native Gifted Chat",
-        "Expo Go",
-        "Android Studio",
-        "Google Firestore Database",
-        "Firebase Cloud Storage",
-        "Prettier",
-        "ESLint"
-      ],
-      "images": [
-        {
-          "src": "img/ChatlyScreenshot1.png",
-          "alt": "Screenshot of Chatly's Main Page showing Name input and background color selection",
-          "style": {
-            "height": "300px"
-          }
-        },
-        {
-          "src": "img/ChatlyScreenshot2.png",
-          "alt": "Screenshot of Chatly's Chat Screen",
-          "style": {
-            "height": "300px"
-          }
-        },
-        {
-          "src": "img/ChatlyScreenshot3.png",
-          "alt": "Screenshot of Chatly's  Action Options in the Chat Screen",
-          "style": {
-            "height": "300px"
-          }
-        },
-        {
-          "src": "img/Chatly-Actions.gif",
-          "alt": "Chatly Action Demonstration",
-          "style": {
-            "height": "300px"
-          }
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Project 5: SPA Full-Stack Web App (Angular)",
-      "logoImage": {
-        "src": "img/myFlixLogoAngular.png",
-        "alt": "Full Logo for myFlix app",
-        "style": {
-          "height": "60px"
-        }
-      },
-      "links": [
-        {
           "text": "Live App",
-          "url": "https://eahowell.github.io/myFlix-Angular-client/",
+          "url": "https://eahowell.github.io/pokedex-js-app/",
           "title": "Link to the live app"
         },
         {
-          "text": "Frontend Repository",
-          "url": "https://github.com/eahowell/myFlix-Angular-client",
-          "title": "Link to project github repository for the frontend code"
-        },
-        {
-          "text": "Backend Repository",
-          "url": "https://github.com/eahowell/movie_api",
-          "title": "Link to project github repository for the backend code"
+          "text": "Repository",
+          "url": "https://github.com/eahowell/pokedex-js-app",
+          "title": "Link to project github repository"
         }
       ],
-      "description": "This is a full stack web application using Angular for the client side. This uses the backend created in Project 2. The movie application provides a list of movies with details including the description, directors, and actors. A user can create a profile and add movies to their favorites and a to watch list.",
+      "description": "This is a a small web application with HTML, CSS, and JavaScript that loads data from an external API and enables the viewing of data points in detail.",
       "notes": "This project was part of my Full-Stack Web Developer Program with CareerFoundry.",
-      "loginData": [ "Username : testportfolio | Password : 12345678" ],
-      "stack": "This app uses the MEAN (MongoDB, Express, Angular, and Node. js) stack",
+      "stack": "This app uses HTML, CSS, and JavaScript",
+      "loginData": ["No login required"],
       "role": [
-        "Frontend interface using Angular to display the movies (and movie details) and user profile setup and managements",
-        "Using the previously made backend server with the database and the API to access the database"
+        "Build the frontend interface displaying a list of Pokémon, when clicked upon the details of the selected Pokémon will appear in a popup.",
+        "Reading in the data from the API, parsing the info, and displaying the details of each Pokémon."
       ],
       "learnings": [
-        "Create documentation with JSDoc and TypeDoc",
-        "Design a Single Page Application using Angular"
+        "Load data from an external source (API)",
+        "Creating and using Modals",
+        "Design a dynamic site",
+        "Using Bootstrap for styling"
       ],
       "technologies": [
-        "Angular",
-        "TypeScript",
-        "TypeDoc",
-        "JSDoc",
-        "Material Design",
-        "RXJS",
-        "SCSS",
+        "JavaScript",
+        "jQuery",
+        "Polyfill",
+        "Bootstrap",
+        "CSS",
         "HTML",
-        "Express",
-        "JavaScript - Backend",
-        "Mongoose - Backend",
-        "Redux - Backend",
-        "Parcel - Backend",
-        "JSON Web Token - Backend",
-        "MongoDB - Backend",
-        "Heroku - Backend"
+        "Prettier"
       ],
       "images": [
         {
-          "src": "img/MEANmyFlixScreenshot0.png",
-          "alt": "Screenshot of myFlix Welcome Page",
+          "src": "img/PokedexScreenshot1.png",
+          "alt": "Pokedex Main Page showing list of clickable Pokemon",
           "style": {
             "height": "300px"
           }
         },
         {
-          "src": "img/MEANmyFlixScreenshot1.png",
-          "alt": "Screenshot of myFlix Create Account Page",
-          "style": {
-            "height": "300px"
-          }
-        },
-        {
-          "src": "img/MEANmyFlixScreenshot2.png",
-          "alt": "Screenshot of myFlix Signin Page",
-          "style": {
-            "height": "300px"
-          }
-        },
-        {
-          "src": "img/MEANmyFlixScreenshot5.png",
-          "alt": "Screenshot of myFlix User Profile Page",
-          "style": {
-            "height": "300px"
-          }
-        },
-        {
-          "src": "img/MEANmyFlixScreenshot3.png",
-          "alt": "Screenshot of myFlix Movies List Page",
-          "style": {
-            "height": "300px"
-          }
-        },
-        {
-          "src": "img/MEANmyFlixScreenshot4.png",
-          "alt": "Screenshot of myFlix Movie Details Page",
+          "src": "img/PokedexScreenshot2.png",
+          "alt": "Detailed view of selected Pokemon",
           "style": {
             "height": "300px"
           }
